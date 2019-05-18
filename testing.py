@@ -1,1 +1,2 @@
-print("nabeel".title())
+list = (' ')*9
+print(list)
