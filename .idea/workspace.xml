@@ -352,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4_lists_tuples_sets">
+  <component name="RunManager" selected="Python.10_list_comprehensions">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,6 +371,27 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="10_list_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/10_list_comprehensions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="11_functions_and_arguments (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
@@ -406,27 +427,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/4_lists_tuples_sets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="python_challenge_2b_regex_pagesource" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_challenge" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_challenge/python_challenge_2b_regex_pagesource.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,17 +480,17 @@
     <list>
       <item itemvalue="Python.11_functions_and_arguments (1)" />
       <item itemvalue="Python.4_lists_tuples_sets" />
-      <item itemvalue="Python.python_challenge_2b_regex_pagesource" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.testing" />
+      <item itemvalue="Python.10_list_comprehensions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10_list_comprehensions" />
         <item itemvalue="Python.4_lists_tuples_sets" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.11_functions_and_arguments (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.python_challenge_2b_regex_pagesource" />
       </list>
     </recent_temporary>
   </component>
