@@ -129,7 +129,6 @@ while True:
                 turn = 1
 
 
-
     # CHECK_REPLAY:
     if game_replay():
         # YES: PASS
