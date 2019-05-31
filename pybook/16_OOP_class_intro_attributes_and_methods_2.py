@@ -13,7 +13,7 @@ class Circle():
         return 2 * Circle.pi * self.radius       # We can use both 'Circle.pi' or 'self.pi'. 'Circle.pi' is preferred.
 
 
-my_circle = Circle(5)           # Defined a circle with radius 5. This is where 'area' attribute is calculated.
+my_circle = Circle(5)      # Creating and instance of the class Circle(). This is where 'area' attribute is calculated.
 
 print('########## Printing CLASS OBJECT ATTRIBUTE ##########')
 print(my_circle.pi,'\n')

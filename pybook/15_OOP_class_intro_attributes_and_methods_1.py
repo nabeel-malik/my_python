@@ -25,7 +25,7 @@ class Dog():
         print('{0} WOOF! from {1}'.format(mood, self.name))     # Notice how 'mood' parameter is not linked to 'self'
 
 
-my_dog = Dog('Huskie', 'Oscar', False)
+my_dog = Dog('Huskie', 'Oscar', False)      # Creating an instance of the class Dog() called my_dog
 
 print('########## Printing instance type ##########')
 print(type(my_dog), '\n')
