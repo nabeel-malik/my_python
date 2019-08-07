@@ -3,10 +3,10 @@ upper = int(input("Range END integer: "))
 prime_num_list = []
 
 for num in range (lower,upper+1):
-    #Since prime numbers are greater than 1
+    # Since prime numbers are greater than 1
     if num > 1:
-        for i in range (2,num):
-            if (num % i == 0):
+        for i in range(2, num):
+            if num % i == 0:
                 break
         else:
             prime_num_list.append(str(num))

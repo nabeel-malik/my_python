@@ -6,7 +6,7 @@ class Dog():
 
     '__init__' is a special method that is called whenever Python creates a new instance of the class (Instantiation).
     The first parameter 'self' is mandatory, and just refers to that particular instance of the class.
-    By convention, the parameters passed to the '__init__' method have the same name as the user-defined attributes.
+    By convention, the arguments passed to the '__init__' method have the same name as the user-defined attributes.
     """
 
     species = 'mammal'                  # 'mammal' assigned to CLASS OBJECT ATTRIBUTE called 'species'

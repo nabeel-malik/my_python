@@ -26,8 +26,8 @@ print('student:\t\t\t\t\t\t\t\t', student)
 
 print("student.get('age')\t\t\t\t\t\t", student.get('age'))
 
-#print(student['phone'])   --> will give you a KeyError since the key 'phone' does not exist.
-#To avoid getting this error we can use the get() method to return None or a default value [2nd argument to the get()]
+# print(student['phone'])   --> will give you a KeyError since the key 'phone' does not exist.
+# To avoid getting this error we can use the get() method to return None or a default value [2nd argument to the get()]
 
 print("student.get('phone')\t\t\t\t\t", student.get('phone'))
 print("student.get('phone','Not found')\t\t", student.get('phone','Not found'))
