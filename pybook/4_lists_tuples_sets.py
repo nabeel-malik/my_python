@@ -133,6 +133,3 @@ print('set_2:\t\t\t\t\t\t', set_2)
 print("set_1.intersection(set_2)\t", set_1.intersection(set_2))     # returns intersection
 print("set_1.difference(set_2)\t\t", set_1.difference(set_2))       # returns difference
 print("set_1.union(set_2)\t\t\t", set_1.union(set_2))               # returns union
-
-
-
