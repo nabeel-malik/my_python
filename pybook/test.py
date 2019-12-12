@@ -1,10 +1,6 @@
-mylist = ['Apple', 'Orange', 'Banana', 'Kiwi']
+myset = set()
 
-mystr = ' - '.join(mylist)
+mynum = 8
 
-print(mystr)
-
-mylist2 = mystr.split(' - ')
-
-print(mylist2)
-
+print(type(myset))
+print(type(mynum))

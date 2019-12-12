@@ -14,9 +14,9 @@ Values in the dictionary can be just about anything. The keys can also be any im
 student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
 print('student:\t\t\t\t\t\t\t\t', student)
 
-print("student['name']:\t\t\t\t\t\t", student['name'])
-print("student['age']:\t\t\t\t\t\t\t", student['age'])
-print("student['courses']:\t\t\t\t\t\t", student['courses'])
+print("print(student['name']):\t\t\t\t\t", student['name'])
+print("print(student['age']):\t\t\t\t\t", student['age'])
+print("print(student['courses']):\t\t\t\t", student['courses'])
 
 print('\n#################### .get() METHOD ####################\n')
 
@@ -24,13 +24,13 @@ print('\n#################### .get() METHOD ####################\n')
 
 print('student:\t\t\t\t\t\t\t\t', student)
 
-print("student.get('age')\t\t\t\t\t\t", student.get('age'))
+print("print(student.get('age'))\t\t\t\t", student.get('age'))
 
 # print(student['phone'])   --> will give you a KeyError since the key 'phone' does not exist.
 # To avoid getting this error we can use the get() method to return None or a default value [2nd argument to the get()]
 
-print("student.get('phone')\t\t\t\t\t", student.get('phone'))
-print("student.get('phone','Not found')\t\t", student.get('phone','Not found'))
+print("print(student.get('phone'))\t\t\t\t", student.get('phone'))
+print("print(student.get('phone','Not found'))\t", student.get('phone','Not found'))
 
 print('\n#################### .update() METHOD ####################\n')
 
@@ -72,16 +72,16 @@ student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
 print('student:\t\t\t\t\t\t\t\t', student)
 
 # len() returns the number of keys in the dictionary
-print("len(student):\t\t\t\t\t\t\t", len(student))
+print("print(len(student))\t\t\t\t\t\t", len(student))
 
 # .keys() returns a view object that displays a list of all the keys in the dictionary
-print('student.keys():\t\t\t\t\t\t\t', student.keys())
+print('print(student.keys())\t\t\t\t\t', student.keys())
 
 # .values() returns a view object that displays a list of all the values in the dictionary.
-print('student.values():\t\t\t\t\t\t', student.values())
+print('print(student.values())\t\t\t\t\t', student.values())
 
 # .items() returns a view object that displays a list of dictionary's (key, value) tuple pairs.
-print('student.items():\t\t\t\t\t\t', student.items())
+print('print(student.items())\t\t\t\t\t', student.items())
 
 print('\n#################### LOOPING THROUGH A DICTIONARY & .items() ATTRIBUTE ####################\n')
 # If we loop through a dictionary the same way we loop through lists, i.e. without using the .items() method),
