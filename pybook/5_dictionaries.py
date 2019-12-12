@@ -1,5 +1,6 @@
 print('\n--------------------------------------------- DICTIONARIES ---------------------------------------------')
 empty_dictionary = {}
+print("empty_dictionary = {}")
 
 '''
 A dictionary is a collection which is unordered, mutable and indexed. Dictionaries are mappings, not a sequence.
@@ -18,7 +19,7 @@ print("print(student['name']):\t\t\t\t\t", student['name'])
 print("print(student['age']):\t\t\t\t\t", student['age'])
 print("print(student['courses']):\t\t\t\t", student['courses'])
 
-print('\n#################### .get() METHOD ####################\n')
+print('\n########################################## .get() METHOD ##########################################\n')
 
 # The get() method returns the value for the specified key if key is in dictionary.
 
@@ -32,7 +33,7 @@ print("print(student.get('age'))\t\t\t\t", student.get('age'))
 print("print(student.get('phone'))\t\t\t\t", student.get('phone'))
 print("print(student.get('phone','Not found'))\t", student.get('phone','Not found'))
 
-print('\n#################### .update() METHOD ####################\n')
+print('\n######################################### .update() METHOD #########################################\n')
 
 # The update() method adds element(s) to the dictionary if the key is not in the dictionary.
 # If the key is in the dictionary, it updates the key with the new value.
@@ -52,7 +53,7 @@ student.update(name = 'Charlie', sex = 'male')              # .update() method w
 print("student.update(name = 'Charlie', sex = 'male'):\t\t\t\t\t", student)
 
 
-print('\n#################### del FUNCTION AND .pop() METHOD ####################\n')
+print('\n################################## del FUNCTION AND .pop() METHOD ##################################\n')
 
 student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
 print('student:\t\t\t\t\t\t\t\t', student)
@@ -83,7 +84,7 @@ print('print(student.values())\t\t\t\t\t', student.values())
 # .items() returns a view object that displays a list of dictionary's (key, value) tuple pairs.
 print('print(student.items())\t\t\t\t\t', student.items())
 
-print('\n#################### LOOPING THROUGH A DICTIONARY & .items() ATTRIBUTE ####################\n')
+print('\n######################## LOOPING THROUGH A DICTIONARY & .items() ATTRIBUTE ########################\n')
 # If we loop through a dictionary the same way we loop through lists, i.e. without using the .items() method),
 # we will just loop through the keys.
 
@@ -109,4 +110,3 @@ for element in student.items():        # loops through dictionary key-value pair
 print('\nfor key, value in student.items():     print(key, value)')
 for key, value in student.items():      # See tuple unpacking in xx_tuple_and_dictionary_unpacking.py
     print(key, value)
-

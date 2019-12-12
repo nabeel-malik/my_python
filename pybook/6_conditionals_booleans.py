@@ -89,7 +89,7 @@ if j:
 else:
     print('j evaluated to False')
 
-print("\n#################### DIFFERENCE BETWEEN '==' AND is COMPARISON ####################\n")
+print("\n####################### DIFFERENCE BETWEEN '==' AND is COMPARISON #######################\n")
 a = [1,2,3]
 b = [1,2,3]
 c = a
@@ -100,15 +100,15 @@ b = [1,2,3]
 c = a
 ''')
 
-print('id(a):\t', id(a))
-print('id(b):\t', id(b))
-print('id(c):\t', id(c))
+print('print(id(a))\t', id(a))
+print('print(id(b))\t', id(b))
+print('print(id(c))\t', id(c))
 
 print('')
 
 
-print('a == b:\t', a == b)
-print('a is b:\t', a is b)
+print('print(a == b)\t', a == b)
+print('print(a is b)\t', a is b)
 
-print('a == c:\t', a == c)
-print('a is c:\t', a is c)
+print('print(a == c)\t', a == c)
+print('print(a is c)\t', a is c)

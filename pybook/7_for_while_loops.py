@@ -4,7 +4,7 @@ break:      Breaks out of the current closest enclosing loop
 pass:       Does nothing (Usually used as a place holder to avoid getting errors from intermediate code)
 '''
 
-print('\n#################### 1. for LOOP WITH continue ####################\n')
+print('\n################### 1. for LOOP WITH continue ####################\n')
 mystring = 'S-a-m-m-y'
 
 for letter in mystring:
@@ -23,7 +23,7 @@ while x < 5:
     x += 1
 print('WHILE loop borken!')
 
-print('\n#################### 3. for LOOP WITH pass ####################\n')
+print('\n##################### 3. for LOOP WITH pass ######################\n')
 
 food = ['apple', 'milk', 'honey']
 
