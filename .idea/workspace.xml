@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7_for_while_loops">
+  <component name="RunManager" selected="Python.4_lists_tuples_sets">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,11 +199,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4_lists_tuples_sets" />
         <item itemvalue="Python.7_for_while_loops" />
         <item itemvalue="Python.6_conditionals_booleans" />
         <item itemvalue="Python.5_dictionaries" />
         <item itemvalue="Python.5_dictionaries_copy" />
-        <item itemvalue="Python.4_lists_tuples_sets" />
       </list>
     </recent_temporary>
   </component>

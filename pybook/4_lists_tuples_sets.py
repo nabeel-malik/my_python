@@ -1,7 +1,7 @@
 print('\n--------------------------------------------- LISTS ---------------------------------------------')
 empty_list = []
 
-print('\n#################### COMMONLY USED LIST METHODS ####################\n')
+print('\n############################ COMMONLY USED LIST METHODS ############################\n')
 
 courses = ['History', 'Math', 'Physics', 'CompSci', 'Literature']
 print('courses:\t\t\t\t\t\t\t', courses)
@@ -45,11 +45,11 @@ print('sorted_list:\t\t\t\t\t\t', sorted_list, '\t\twhere sorted_list = sorted(c
 
 print('\ncourses:\t\t\t\t\t\t\t', courses)
 
-print("courses.index('CompSci')\t\t\t", courses.index('CompSci'))  # Returns index of the item in argument.
-print("'Physics' in courses\t\t\t\t", 'Physics' in courses)
-print("'Math' in courses\t\t\t\t\t", 'Math' in courses)
+print("print(courses.index('CompSci'))\t\t", courses.index('CompSci'))  # Returns index of the item in argument.
+print("print('Physics' in courses)\t\t\t", 'Physics' in courses)
+print("print('Math' in courses)\t\t\t", 'Math' in courses)
 
-print('\n#################### LISTS WITH ENUMERATE FUNCTION ####################\n')
+print('\n############################ LISTS WITH ENUMERATE FUNCTION ############################\n')
 
 print('\ncourses:\t\t\t\t\t\t\t', courses)
 
@@ -80,7 +80,7 @@ new_list_2 = courses_str_2.split(' - ')     # Returns a list split from the stri
 print("new_list_2:\t\t\t\t\t\t\t", new_list_2, "\t\twhere new_list_2 = courses_str.split(' - ')")
 
 
-print('\n#################### FUNCTIONS FOR INTEGER LISTS ####################\n')
+print('\n############################### FUNCTIONS FOR INTEGER LISTS ###############################\n')
 
 nums = [5, 3, 2, 8, 7]
 print('nums:\t\t\t\t\t\t\t\t', nums)
@@ -99,7 +99,7 @@ print('tuple_1:\t\t\t\t\t\t\t', tuple_1)
 
 #tuple_1[0] = 'Art'      --> If commented in --> exit code 1, because tuple object does not support item assignment.
 
-print('\n########################### TUPLE UNPACKING ###########################\n')
+print('\n##################################### TUPLE UNPACKING #####################################\n')
 # Tuple unpacking is a feature that assigns ('unpacks') the items of a tuple on the right hand side to the items
 # of a variable with the same structure on the left hand side.
 
@@ -124,12 +124,12 @@ print('set_1:\t\t\t\t\t\t', set_1)          # Duplicate values will be removed f
 set_1.add('Chemistry')        # Adds an element to the set IF it is not already present in it.
 print("set_1.add('Chemistry'):\t\t", set_1)
 
-print("'Physics' in set_1\t\t\t", 'Physics' in set_1)    # Sets are optimised for this functionality
+print("print('Physics' in set_1)\t\t", 'Physics' in set_1)    # Sets are optimised for this functionality
 
 set_2 = {'Art', 'Math', 'Physics', 'Design', 'CompSci'}
-print('\nset_1:\t\t\t\t\t\t', set_1)
-print('set_2:\t\t\t\t\t\t', set_2)
+print('\nset_1:\t\t\t\t\t\t\t', set_1)
+print('set_2:\t\t\t\t\t\t\t', set_2)
 
-print("set_1.intersection(set_2)\t", set_1.intersection(set_2))     # returns intersection
-print("set_1.difference(set_2)\t\t", set_1.difference(set_2))       # returns difference
-print("set_1.union(set_2)\t\t\t", set_1.union(set_2))               # returns union
+print("print(set_1.intersection(set_2))", set_1.intersection(set_2))     # returns intersection
+print("print(set_1.difference(set_2))\t", set_1.difference(set_2))       # returns difference
+print("print(set_1.union(set_2))\t\t", set_1.union(set_2))               # returns union
