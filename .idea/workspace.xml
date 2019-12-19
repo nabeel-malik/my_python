@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.8_range_enumerate_zip_functions">
+  <component name="RunManager" selected="Python.7_for_while_loops">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="4_lists_tuples_sets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="10_list_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,28 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/4_lists_tuples_sets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6_conditionals_booleans" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/6_conditionals_booleans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/10_list_comprehensions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8_range_enumerate_zip_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="9_random_library" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +139,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/8_range_enumerate_zip_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/9_random_library.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="factorial_of_a_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/factorial_of_a_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +191,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.4_lists_tuples_sets" />
-      <item itemvalue="Python.6_conditionals_booleans" />
-      <item itemvalue="Python.7_for_while_loops" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.8_range_enumerate_zip_functions" />
+      <item itemvalue="Python.9_random_library" />
+      <item itemvalue="Python.10_list_comprehensions" />
+      <item itemvalue="Python.factorial_of_a_number" />
+      <item itemvalue="Python.7_for_while_loops" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.8_range_enumerate_zip_functions" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.4_lists_tuples_sets" />
         <item itemvalue="Python.7_for_while_loops" />
-        <item itemvalue="Python.6_conditionals_booleans" />
+        <item itemvalue="Python.factorial_of_a_number" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.10_list_comprehensions" />
+        <item itemvalue="Python.9_random_library" />
       </list>
     </recent_temporary>
   </component>

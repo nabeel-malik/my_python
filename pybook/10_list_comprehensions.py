@@ -47,7 +47,7 @@ print('>>', fahrenheit, '\n\n')
 print("########################## 2. if else STATEMENT INSIDE LIST COMPREHENSIONS ##########################\n")
 
 # Note:
-# When using if statement inside a list comprehension, it is placed AFTER the for loop, as expected.
+# When using IF statement inside a list comprehension, it is placed AFTER the for loop, as expected.
 # However, when using if else statement inside a list comprehension, it has to be placed BEFORE the for loop.
 
 results = [x if x%2 == 0 else 'ODD' for x in range (0,11)]

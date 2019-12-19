@@ -1,4 +1,8 @@
-my_list = ['Physics', 'Literature', 'Education', 'CompSci', 'Biology', 'Art']
+'''
+TASK - SKYLINE FUNCTION: Create a function called 'skyline' that takes in a string, and returns a matching string where
+every even letter is uppercase, and every odd letter is lowercase.
+'''
 
-for index, item in enumerate(my_list, start=1):
-        print(index, item)
+def sykline(input_string):
+        input_list = list
+
