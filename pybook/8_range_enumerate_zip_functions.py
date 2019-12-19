@@ -3,7 +3,7 @@ The range() function RETURNS an immutable sequence of numbers between the given 
 
 The enumerate() function adds counter to an iterable and RETURNS an enumerate object (in our case a list of tuples).
 
-The zip() function take iterables (can be zero or more), makes an iterator that aggregates elements
+The zip() function takes iterables (can be zero or more), makes an iterator that aggregates elements
 based on the iterables passed, and RETURNS an iterator of tuples.
 '''
 
