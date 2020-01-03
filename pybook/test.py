@@ -1,8 +1,9 @@
-'''
-TASK - SKYLINE FUNCTION: Create a function called 'skyline' that takes in a string, and returns a matching string where
-every even letter is uppercase, and every odd letter is lowercase.
-'''
+tizzfuzz_list = ['TizzFuzz' if num%3==0 and num%5==0 else 'Tizz' if num%3==0 else 'Fuzz' if num%5==0
+                else num for num in range(1, 31)]
 
-def sykline(input_string):
-        input_list = list
+for item in tizzfuzz_list:
+        print(item, end=' ')
+
+
+
 

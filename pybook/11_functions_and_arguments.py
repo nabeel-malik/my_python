@@ -1,12 +1,14 @@
 print('\n------------------------------------------- FUNCTIONS -------------------------------------------\n')
 
-print("########################### 1. SIMPLE PIG LATIN PROGRAM ###########################\n")
+print("###################################### 1. SIMPLE PIG LATIN PROGRAM ######################################\n")
+
 
 def pig_latin(arg_string):
     if arg_string[0].lower() in 'aeiou':
         return arg_string + 'ay'
     else:
         return arg_string[1:] + arg_string[0] + 'ay'
+
 
 print(pig_latin('apple'))
 print(pig_latin('word'))
@@ -25,7 +27,7 @@ def myfunc(*args):      # *args takes multiple positional arguments into a TUPLE
     print(sum(args), '\n')    # notice that sum() takes an iterable and returns its sum
 
 
-myfunc(40,60,100,200)
+myfunc(40,60,100,200)       # These are positional arguments in a function
 
 print("###################### 3. KEYWORD ARGUMENTS WITH **kwargs, AKA DICTIONARY PACKING ######################\n")
 
@@ -33,14 +35,14 @@ print("###################### 3. KEYWORD ARGUMENTS WITH **kwargs, AKA DICTIONARY
 def myfunc(**kwargs):      # **kwargs takes multiple keyword arguments into a DICTIONARY, aka Dictionary Packing
     print(kwargs)
     if 'vegetable' in kwargs:
-        print('The value for vegetable is {0}'.format(kwargs['vegetable']),'\n')
+        print('The value for vegetable is {0}'.format(kwargs['vegetable']),'\n')    # Can also use .get() method here
     else:
         print('Vegetable not found.\n')
 
 
 myfunc(fruit='apple', vegetable='spinach', drink='juice')    # These are called 'keyword arguments' in a function.
 
-print("################### 4. POSITIONAL AND KEYWORD ARGUMENTS IN COMBINATION ###################\n")
+print("########################## 4. POSITIONAL AND KEYWORD ARGUMENTS IN COMBINATION ##########################\n")
 
 
 def myfunc(*args,**kwargs):

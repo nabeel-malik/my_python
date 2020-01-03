@@ -1,11 +1,11 @@
-'''
+"""
 The range() function RETURNS an immutable sequence of numbers between the given start integer and stop integer.
 
 The enumerate() function adds counter to an iterable and RETURNS an enumerate object (in our case a list of tuples).
 
 The zip() function takes iterables (can be zero or more), makes an iterator that aggregates elements
 based on the iterables passed, and RETURNS an iterator of tuples.
-'''
+"""
 
 print('\n#################### 1. range() ####################\n')
 
@@ -15,7 +15,7 @@ for num in range(1,11):
 list_from_range = list(range(0,11,2))
 print('\n', list_from_range)
 
-print('\n#################### 1. enumerate() ####################\n')
+print('\n#################### 2. enumerate() ####################\n')
 
 foodlist = ['nuts', 'beans', 'veggies', 'fruit']
 print('foodlist:\t', foodlist, '\n')
@@ -42,7 +42,7 @@ print('for index, item in enumerate(foodlist, start=1):\t\tprint(index, item)')
 for index, item in enumerate(foodlist, start=1):    # unpacking the enumerate object
     print(index, item)
 
-print('\n#################### 1. zip() ####################\n')
+print('\n#################### 3. zip() ####################\n')
 
 mylist1 = ['a','b','c']
 mylist2 = [1,2,3]

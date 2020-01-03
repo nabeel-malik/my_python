@@ -46,11 +46,11 @@ print('student:\t\t\t\t\t\t\t\t', student)
 student['cell'] = '555'
 print("student['cell'] = '555'\t\t\t\t\t", student)
 
-student.update({'name':'Jane','age':28, 'sex':'female'})    # .update() method with dictionary as argument
-print("student.update({'name':'Jane','age':28, 'sex':'female'}):\t\t", student)
+student.update({'name': 'Jane','age': 28, 'sex': 'female'})    # .update() method with dictionary as argument
+print("student.update({'name': 'Jane','age': 28, 'sex': 'female'}):\t\t", student)
 
-student.update(name = 'Charlie', sex = 'male')              # .update() method with an iterable as an argument
-print("student.update(name = 'Charlie', sex = 'male'):\t\t\t\t\t", student)
+student.update(name='Charlie', sex='male')              # .update() method with an iterable as an argument
+print("student.update(name='Charlie', sex='male'):\t\t\t\t\t", student)
 
 
 print('\n################################## del FUNCTION AND .pop() METHOD ##################################\n')
