@@ -1,10 +1,11 @@
-class Circle():
+class Circle:
 
     # CLASS OBJECT ATTRIBUTE
     pi = 3.142
 
-    # INSTANTIATION METHOD
+    # INSTANTIATION/INIT METHOD
     def __init__(self, radius=1):           # Can set default values for parameters just like regular functions.
+        # USER-DEFINED ATTRIBUTES
         self.radius = radius
         self.area = Circle.pi * self.radius * self.radius       # We can create additional attributes inside '__init__'
 

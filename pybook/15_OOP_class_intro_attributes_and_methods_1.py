@@ -1,20 +1,21 @@
-class Dog():
+class Dog:    # The class keyword creates user-defined objects, as opposed to built-in objects like strings and lists.
     """
-    There are 2 kinds of attributes: Class object attributes, and user-defined attributes.
-    Class object attributes are common to each and every instance of the class. They are defined above '__init__'.
-    User-defined attributes are specific to each instance of the class. They are defined inside __init__'
+    There are 2 kinds of attributes: CLASS OBJECT ATTRIBUTES, and USER-DEFINED ATTRIBUTES.
+    'CLASS OBJECT ATTRIBUTES' are common to ALL instances of the class. They are defined above '__init__'.
+    'USER-DEFINED ATTRIBUTES' are specific to a particular instance of the class. They are defined inside __init__'.
+    Any function defined 'inside' a class (including the INSTANTIATION METHOD), are actually 'methods', not 'functions'.
 
     '__init__' is a special method that is called whenever Python creates a new instance of the class (Instantiation).
     The first parameter 'self' is mandatory, and just refers to that particular instance of the class.
-    By convention, the arguments passed to the '__init__' method have the same name as the user-defined attributes.
+    By convention, the argument names in the '__init__' method definition are the same as the user-defined attributes.
     """
 
-    species = 'mammal'                  # 'mammal' assigned to CLASS OBJECT ATTRIBUTE called 'species'
+    species = 'Mammal'                  # 'mammal' assigned to CLASS OBJECT ATTRIBUTE called 'species'
 
-    def __init__(self, breed, name, spots):          # INSTANTIATION METHOD
+    def __init__(self, breed, name, spots):          # INSTANTIATION METHOD, aka INIT METHOD
 
         # Expecting string
-        self.breed = breed              # breed parameter assigned to USER-DEFINED ATTRIBUTE called 'breed'
+        self.breed = breed              # breed argument assigned to USER-DEFINED ATTRIBUTE called 'breed'
         self.name = name
 
         # Expecting boolean
@@ -31,9 +32,11 @@ print('########## Printing instance type ##########')
 print(type(my_dog), '\n')
 
 print('########## Printing attributes ##########')
-print(my_dog.breed)
-print(my_dog.name)
-print(my_dog.spots, '\n')
+
+print(my_dog.species)       # Printing 'CLASS OBJECT ATTRIBUTE' that is common to ALL instances of the class Dog()
+print(my_dog.breed)         # Printing 'USER-DEFINED ATTRIBUTE' that is specific ONLY to the instance my_dog
+print(my_dog.name)          # Printing 'USER-DEFINED ATTRIBUTE' that is specific ONLY to the instance my_dog
+print(my_dog.spots, '\n')   # Printing 'USER-DEFINED ATTRIBUTE' that is specific ONLY to the instance my_dog
 
 print('########## Running class method ##########')
 my_dog.bark('angry')            # Note: Attribute call has no () at the end, but method call does.

@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11_functions_and_arguments">
+  <component name="RunManager" selected="Python.15_OOP_class_intro_attributes_and_methods_1">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="10_list_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="12_tuple_and_dictionary_unpacking" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/10_list_comprehensions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/12_tuple_and_dictionary_unpacking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_functions_and_arguments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13_map()_filter()_and_lambda_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/11_functions_and_arguments.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/13_map()_filter()_and_lambda_functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8_range_enumerate_zip_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14_mutation_vs_reassignment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/8_range_enumerate_zip_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/14_mutation_vs_reassignment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9_random_library" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15_OOP_class_intro_attributes_and_methods_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/9_random_library.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/15_OOP_class_intro_attributes_and_methods_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +191,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.8_range_enumerate_zip_functions" />
-      <item itemvalue="Python.9_random_library" />
-      <item itemvalue="Python.10_list_comprehensions" />
+      <item itemvalue="Python.12_tuple_and_dictionary_unpacking" />
+      <item itemvalue="Python.13_map()_filter()_and_lambda_functions" />
+      <item itemvalue="Python.14_mutation_vs_reassignment" />
+      <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods_1" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.11_functions_and_arguments" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11_functions_and_arguments" />
-        <item itemvalue="Python.10_list_comprehensions" />
+        <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods_1" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.9_random_library" />
-        <item itemvalue="Python.8_range_enumerate_zip_functions" />
+        <item itemvalue="Python.14_mutation_vs_reassignment" />
+        <item itemvalue="Python.13_map()_filter()_and_lambda_functions" />
+        <item itemvalue="Python.12_tuple_and_dictionary_unpacking" />
       </list>
     </recent_temporary>
   </component>
