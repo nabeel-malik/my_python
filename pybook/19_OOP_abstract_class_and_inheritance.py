@@ -10,6 +10,7 @@ This approach is more commonly used to utilize POLYMORPHISM, i.e. when a method 
 classes.
 """
 
+# ABSTRACT, PARENT CLASS
 class Animal:
 
     def __init__(self, name):
@@ -18,12 +19,13 @@ class Animal:
     def speak(self):
         raise NotImplementedError("Subclass must implement this abstract method")
 
+# CHILD CLASS
 class Dog(Animal):
 
     def speak(self):
         print(self.name + " says WOOF!")
 
-
+# CHILD CLASS
 class Cat(Animal):
 
     def speak(self):
@@ -32,6 +34,7 @@ class Cat(Animal):
 # INSTANTIATING THE ANIMAL CLASS (ABSTRACT, PARENT CLASS) AND CALLING speak() method will raise the NotImplementedError
 # myanimal = Animal("Fred")
 # myanimal.speak()
+
 
 # INSTANTIATING THE DOG CLASS (CHILD CLASS) AND CALLING speak() method
 mydog = Dog("Max")
