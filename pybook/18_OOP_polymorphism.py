@@ -1,7 +1,7 @@
 """
 POLYMORPHISM refers to the way in which different object classes can share the same method name, and then those
 methods can be called from the same place (for instance, a loop or function) even though a variety of different
-objects might be passed in.
+objects might be passed in, i.e. we obtain object specific results from the same method call.
 """
 
 class Dog:

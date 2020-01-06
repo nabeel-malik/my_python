@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17_OOP_inheritance">
+  <component name="RunManager" selected="Python.19_OOP_abstract_class_and_inheritance">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="19_OOP_abstract_class_and_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/19_OOP_abstract_class_and_inheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,18 +192,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods_1" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.17_OOP_inheritance_and_polymorphism" />
       <item itemvalue="Python.18_OOP_polymorphism" />
       <item itemvalue="Python.17_OOP_inheritance" />
+      <item itemvalue="Python.19_OOP_abstract_class_and_inheritance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.19_OOP_abstract_class_and_inheritance" />
         <item itemvalue="Python.17_OOP_inheritance" />
         <item itemvalue="Python.18_OOP_polymorphism" />
         <item itemvalue="Python.17_OOP_inheritance_and_polymorphism" />
         <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods_1" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -235,5 +235,16 @@
       <path value="$PROJECT_DIR$/pybook" />
       <path value="$PROJECT_DIR$/pybook/remote_repo_pybook" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pybook/19_OOP_abstract_class_and_inheritance.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
