@@ -3,7 +3,7 @@ class Dog:    # The class keyword creates user-defined objects, as opposed to bu
     There are 2 kinds of attributes: CLASS OBJECT ATTRIBUTES, and USER-DEFINED ATTRIBUTES.
     'CLASS OBJECT ATTRIBUTES' are common to ALL instances of the class. They are defined above '__init__'.
     'USER-DEFINED ATTRIBUTES' are specific to a particular instance of the class. They are defined inside __init__'.
-    Any function defined 'inside' a class (including the INSTANTIATION METHOD), are actually 'methods', not 'functions'.
+    Any function defined 'inside' a class is called a 'method'.
 
     '__init__' is a special method that is called whenever Python creates a new instance of the class (Instantiation).
     The first parameter 'self' is mandatory, and just refers to that particular instance of the class.
