@@ -15,7 +15,7 @@ with open('./input_files/update_l2_history_orat_grat/RNB_2018_HIGH_v1.SCH', 'r+'
             orat = "".join(rate_list[3])
             grat = "".join(rate_list[4])
 
-            #regex = "(^DATES[^\d.]+?{0}.+?WCONHIST.+?'L-2H'\s.+?\s.+?\s)(.+?)(\s.+?\s)(.+?)(\s/$)".format(date)
+            # regex = "(^DATES[^\d.]+?{0}.+?WCONHIST.+?'L-2H'\s.+?\s.+?\s)(.+?)(\s.+?\s)(.+?)(\s/$)".format(date)
 
             regex = """
             (^DATES[^\d.]+?{0}.+?WCONHIST.+?'?L-2H'?\s.+?\s.+?\s)   #Group1 - String from DATES through Control Mode

@@ -1,4 +1,11 @@
-my_dict = {'name': 'nabeel', 'age': 33, 'gender': 'male'}
+class Account:
 
-for key,value in my_dict.items():
-    print(key)
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.balance = balance
+
+    def __str__(self):
+         return "You have now opened a new account for {0} with a balance of {1}".format(self.owner, self.balance)
+
+acct1 = Account("Jose", 200)
+print(acct1)

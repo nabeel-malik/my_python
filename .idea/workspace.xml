@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.20_OOP_special_dunder_methods">
+  <component name="RunManager" selected="Python.3_OOP_bank_account_challenge">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="17_OOP_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1_OOP_line_class (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/17_OOP_inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero/1_OOP_line_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_OOP_inheritance_and_polymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1_OOP_line_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs/udemy_o_to_hero" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="Z:\python\code\my_python\pybook\17_OOP_inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/udemy_o_to_hero/1_OOP_line_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="18_OOP_polymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2_OOP_cylinder_class (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/18_OOP_polymorphism.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero/2_OOP_cylinder_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19_OOP_abstract_class_and_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3_OOP_bank_account_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/19_OOP_abstract_class_and_inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero/3_OOP_bank_account_challenge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20_OOP_special_dunder_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/20_OOP_special_dunder_methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +191,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.17_OOP_inheritance_and_polymorphism" />
-      <item itemvalue="Python.18_OOP_polymorphism" />
-      <item itemvalue="Python.17_OOP_inheritance" />
-      <item itemvalue="Python.19_OOP_abstract_class_and_inheritance" />
-      <item itemvalue="Python.20_OOP_special_dunder_methods" />
+      <item itemvalue="Python.1_OOP_line_class" />
+      <item itemvalue="Python.1_OOP_line_class (1)" />
+      <item itemvalue="Python.2_OOP_cylinder_class (1)" />
+      <item itemvalue="Python.3_OOP_bank_account_challenge" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20_OOP_special_dunder_methods" />
-        <item itemvalue="Python.19_OOP_abstract_class_and_inheritance" />
-        <item itemvalue="Python.17_OOP_inheritance" />
-        <item itemvalue="Python.18_OOP_polymorphism" />
-        <item itemvalue="Python.17_OOP_inheritance_and_polymorphism" />
+        <item itemvalue="Python.3_OOP_bank_account_challenge" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.2_OOP_cylinder_class (1)" />
+        <item itemvalue="Python.1_OOP_line_class (1)" />
+        <item itemvalue="Python.1_OOP_line_class" />
       </list>
     </recent_temporary>
   </component>

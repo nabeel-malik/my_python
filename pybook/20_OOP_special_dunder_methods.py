@@ -30,3 +30,8 @@ mybook = Book('Python rocks', 'Jose', 200)
 print(mybook)           # The print() function will now look for the __str__() DUNDER METHOD in the class 'Book'.
 print(len(mybook))      # The len() function will now look for the __len__() DUNDER METHOD in the class 'Book'.
 del mybook              # del function is used to delete instances of classes.
+
+"""
+Look at '3_OOP_bank_account_challenge.py' in 'udemy_0_to_hero' directory for a challenge problem combining all the OOP 
+concepts from pybook.
+"""
