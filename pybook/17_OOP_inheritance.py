@@ -1,7 +1,7 @@
 """
 INHERITANCE allows us to define a class that inherits all the methods and properties from another class.
     'Parent class' is the class being inherited from.
-    'Child class' is the class that inherits from the 'parent class'.
+    'Child class' is the class that inherits from the 'Parent class'.
     We can redefine parent class methods inside a child class by simply re-writing them using the same method name.
     We can also add more methods specific to the child class.
 """
@@ -26,7 +26,7 @@ class Dog(Animal):                  # CHILD CLASS inheriting from the BASE CLASS
     def who_am_i(self):             # 'Over-writing' a method inherited from PARENT CLASS, aka METHOD OVERRIDING.
         print('I am a dog')
 
-    def bark(self):                 # Adding a method to the methods inherited from the PARENT CLASS
+    def bark(self):                 # 'Adding' a method to the methods inherited from the PARENT CLASS
         print('WOOF!')
 
 
