@@ -6,7 +6,7 @@ and 2 methods: deposit and withdraw
 
 class Account:
 
-    def __init__(self, owner, balance):
+    def __init__(self, owner, balance=0):
         self.owner = owner
         self.balance = balance
         print("New account successfully opened!\n")
@@ -30,7 +30,7 @@ class Account:
 
 
 account1 = Account("Jose", 200)
-print(account1)         # print() call on object
+print(account1)         # print() call on object of class Account
 account1.deposit(500)
 account1.withdraw(1000)
 account1.withdraw(300)
