@@ -6,7 +6,7 @@ print (dir(os))                         #prints all methods/attributes of an obj
 
 print(os.getcwd())                      #get current working directory
 
-os.chdir('Z:/Private/nabm/python')      #change directory
+os.chdir('Z:/python/code/my_python/corey_schafer')      #change directory
 
 print(os.getcwd())
 

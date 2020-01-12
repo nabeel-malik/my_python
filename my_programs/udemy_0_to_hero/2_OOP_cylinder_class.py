@@ -16,5 +16,3 @@ class Cylinder:
 mycylinder = Cylinder(3,2)
 mycylinder.volume()
 mycylinder.surface_area()
-
-

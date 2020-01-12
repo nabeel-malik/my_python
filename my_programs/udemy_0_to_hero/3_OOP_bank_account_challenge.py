@@ -34,4 +34,3 @@ print(account1)         # print() call on object of class Account
 account1.deposit(500)
 account1.withdraw(1000)
 account1.withdraw(300)
-

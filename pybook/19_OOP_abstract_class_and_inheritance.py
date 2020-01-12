@@ -31,16 +31,16 @@ class Cat(Animal):
     def speak(self):
         print(self.name + " says MEOW!")
 
-# INSTANTIATING THE ANIMAL CLASS (ABSTRACT, PARENT CLASS) AND CALLING speak() method will raise the NotImplementedError
+# INSTANTIATING THE ANIMAL CLASS (ABSTRACT, PARENT CLASS) AND CALLING speak() METHOD WILL RAISE THE NotImplementedError
 # myanimal = Animal("Fred")
 # myanimal.speak()
 
 
-# INSTANTIATING THE DOG CLASS (CHILD CLASS) AND CALLING speak() method
+# INSTANTIATING THE DOG CLASS (CHILD CLASS) AND CALLING speak() METHOD
 mydog = Dog("Max")
 mydog.speak()
 
-# INSTANTIATING THE CAT CLASS (CHILD CLASS) AND CALLING speak() method
+# INSTANTIATING THE CAT CLASS (CHILD CLASS) AND CALLING speak() METHOD
 mycat = Cat("Leo")
 mycat.speak()
 
