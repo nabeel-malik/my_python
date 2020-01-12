@@ -1,11 +1,11 @@
 class Circle:
 
-    # CLASS OBJECT ATTRIBUTE
+    # CLASS ATTRIBUTE
     pi = 3.142
 
     # INSTANTIATION/INIT METHOD
     def __init__(self, radius=1):           # Can set default values for parameters just like regular functions.
-        # USER-DEFINED ATTRIBUTES
+        # INSTANCE ATTRIBUTES
         self.radius = radius
         self.area = Circle.pi * self.radius * self.radius       # We can create additional attributes inside '__init__'
 
@@ -16,11 +16,11 @@ class Circle:
 
 my_circle = Circle(5)      # Creating and instance of the class Circle(). This is where 'area' attribute is calculated.
 
-print('########## Printing CLASS OBJECT ATTRIBUTE ##########')
+print('########## Printing CLASS ATTRIBUTE ##########')
 print(my_circle.pi,'\n')
 
-print('########## Printing USER-DEFINED ATTRIBUTES ##########')
-my_circle.radius = 5    # Reassigning a new value to the 'radius' attribute will NOT recalculate 'area' attribute.
+print('########## Printing INSTANCE ATTRIBUTES ##########')
+my_circle.radius = 10    # Reassigning a new value to the 'radius' attribute will NOT recalculate 'area' attribute.
 print(my_circle.radius)
 print(my_circle.area,'\n')
 

@@ -4,6 +4,7 @@ methods can be called from the same place (for instance, a loop or function) eve
 objects might be passed in, i.e. we obtain object specific results from the same method call.
 """
 
+
 class Dog:
     def __init__(self, name):
         self.name = name
@@ -37,6 +38,7 @@ for pet in [bruno, felix]:
 
 
 print('\n######## 3. DEMONSTRATING POLYMORPHISM BY CALLING THE COMMONLY NAMED METHOD USING A FUNCTION ########\n')
+
 
 def pet_speak(pet_obj):
     print(type(pet_obj))
