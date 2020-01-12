@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.21_OS_module">
+  <component name="RunManager" selected="Python.22_file_read_and_write">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_OOP_bank_account_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="22_file_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero/3_OOP_bank_account_challenge.py" />
+      <option name="SCRIPT_NAME" value="Z:\python\code\my_python\pybook\22_file_read_and_write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OS_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="22_file_read_and_write" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/corey_schafer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/corey_schafer/OS_module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/22_file_read_and_write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +191,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.3_OOP_bank_account_challenge" />
-      <item itemvalue="Python.OS_module" />
       <item itemvalue="Python.21_OS_module" />
       <item itemvalue="Python.20_OOP_special_dunder_methods" />
       <item itemvalue="Python.10_list_comprehensions" />
+      <item itemvalue="Python.22_file_objects" />
+      <item itemvalue="Python.22_file_read_and_write" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.22_file_read_and_write" />
+        <item itemvalue="Python.22_file_objects" />
         <item itemvalue="Python.21_OS_module" />
         <item itemvalue="Python.10_list_comprehensions" />
         <item itemvalue="Python.20_OOP_special_dunder_methods" />
-        <item itemvalue="Python.3_OOP_bank_account_challenge" />
-        <item itemvalue="Python.OS_module" />
       </list>
     </recent_temporary>
   </component>
