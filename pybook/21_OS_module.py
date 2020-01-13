@@ -6,19 +6,19 @@ from datetime import datetime           # used later in os.stat() explanation
 
 print('\n######### 1. dir() FUNCTION, AND os.getcwd(), os.chdir() and os.listdir() METHODS FROM OS LIBRARY #########\n')
 
-print(dir(os))                          # prints all methods/attributes of an object/module
+print(dir(os),'\n')                     # prints all methods/attributes of an object/module
 
-print(os.getcwd())                                                          # get current working directory (cwd)
-os.chdir('Z:/python/code/my_python/pybook/work_directory/OS_module')        # change directory
+print(os.getcwd())                      # get current working directory (cwd)
+os.chdir('work_directory/OS_module')    # change directory
 print(os.getcwd())
-print(os.listdir())                    # returns a list of files and folders in a directory (default = current)
+print(os.listdir())                     # returns a list of files and folders in a directory (default = current)
 
 
 print('\n############################# 2. MAKING, RENAMING, AND REMOVING DIRECTORIES #############################\n')
 
 print("No output is being returned for these methods. View code.\n")
 
-# making directories
+# making directories inside cwd
 os.mkdir('dir1')                        # creates 1 directory only
 os.makedirs('dir2/subdir')              # creates subdirectories as well. corey prefers os.makedirs() over os.mkdir()
 
@@ -46,7 +46,8 @@ print('\n########################################## 4. os.walk() METHOD ########
 """ os.walk() traverses through a directory tree either top-down (default) or bottom-up, rooted at the directory 
 provided as the argument, and for each directory in the tree, it yields a 3-tuple (dirpath, dirnames, filenames). """
 
-os.chdir('Z:/python/code/my_python/pybook/')
+print(os.getcwd())
+os.chdir('../..')
 print(os.getcwd())
 print()
 
@@ -63,13 +64,16 @@ print('\n########################################## 5. os.path METHODS #########
 print(dir(os.path))         # print all methods/attributes available in the os.path module
 print()
 
-os.chdir('Z:/python/code/my_python/pybook/work_directory/OS_module')
+print(os.getcwd())
+os.chdir('work_directory/OS_module')
+print(os.getcwd())
+print()
 
-file_path = os.path.join(os.getcwd(), 'newfile.txt')       # joins one or more path components intelligently
+file_path = os.path.join(os.getcwd(), 'newfile.txt')       # joins one or more path components 'intelligently'
 print(file_path)
 print()
 
-my_path = 'Z:/python/code/my_python/pybook/work_directory/OS_module/demo.txt'
+my_path = 'Z:/python/code/my_python/pybook/work_directory/OS_module/demo.txt'       # change path if and when needed.
 print('my_path:\t\t\t\t\t\t', my_path)
 
 print('os.path.basename(my_path)\t\t', os.path.basename(my_path))
