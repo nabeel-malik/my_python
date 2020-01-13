@@ -19,11 +19,11 @@ os.chdir('renamed_files')
 print('\nCurrent directory:\t', os.getcwd())
 
 for f in os.listdir():
-    f_name, f_ext = os.path.splitext(f)                     # separating file name from extension
+    f_name, f_ext = os.path.splitext(f)                     # separating file name from extension into a tuple
 
-    f_title, f_course, f_num = f_name.split(" - ")          # splitting file name into 3 components
+    f_title, f_course, f_num = f_name.split(" - ")          # splitting file name into a list
 
-    f_title = f_title.strip()                               # removing leading and trailing white space strings
+    f_title = f_title.strip()                               # removing leading and trailing white space
     f_course = f_course.strip()
     f_num = f_num.strip()[1:].zfill(2)                      # [1:] used to remove '#', .zfill() used for zero-padding
 
