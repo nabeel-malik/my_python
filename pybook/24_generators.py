@@ -1,3 +1,6 @@
+import random       # used later in section 4.
+import time         # used later in section 4.
+
 """
 Python GENERATORS are a simple way of creating iterators.
 Simply put, a GENERATOR is a function that returns an object (iterator) which we can iterate over (one value at a time).
@@ -57,8 +60,6 @@ for x in my_nums:           # printing generator output using a 'for' loop
 
 print('\n########################### 4. GENERATORS VS LISTS - MEMORY AND TIME EFFICIENCY ###########################\n')
 
-import random
-import time
 
 names = ['John', 'Corey', 'Adam', 'Steve', 'Rick', 'Thomas']
 majors = ['Math', 'Engineering', 'CompSci', 'Arts', 'Business']
