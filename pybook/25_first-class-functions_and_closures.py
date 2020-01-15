@@ -49,7 +49,6 @@ print('\n##################### 3. A FUNCTION BEING RETURNED FROM ANOTHER FUNCTIO
 
 
 def logger(msg):
-
     def log_message():
         print('Log:', msg)
 
@@ -63,7 +62,6 @@ print('\n##################### 4. A FUNCTION BEING RETURNED FROM ANOTHER FUNCTIO
 
 
 def html_tag(tag):
-
     def wrap_text(msg):
         print('<{0}>{1}</{0}>'.format(tag, msg))
 
@@ -83,9 +81,11 @@ print_p('Test paragraph!')
 print('\n############################################## 5. CLOSURES ##############################################\n')
 """
 A CLOSURE is a function object that remembers values in enclosing scopes even if they are not present in memory.
-A CLOSURE 'closes' over the free variables from its environment.
+A CLOSURE 'closes' over the 'free variables' from its environment.
+A 'free variable' is not defined in the current environment, i.e. collection of local variables, and is also not a 
+global variable. Therefore it must be defined elsewhere. And this is the concept of CLOSURES.
 
-The following criteria must be met to create closure in Python:
+The following criteria must be met to create CLOSURE in Python:
     - We must have a nested function (function inside a function).
     - The nested function must refer to a value defined in the enclosing function.
     - The enclosing function must return the nested function.
