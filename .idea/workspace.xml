@@ -86,7 +86,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="24_generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="21_OS_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="Z:\python\code\my_python\pybook\24_generators_and_execution-times.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/21_OS_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,18 +193,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.24_generators" />
       <item itemvalue="Python.24_generators_and_execution-times" />
       <item itemvalue="Python.25_first-class-functions_and_closures" />
       <item itemvalue="Python.26_decorators" />
+      <item itemvalue="Python.21_OS_module" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.26_decorators" />
+        <item itemvalue="Python.21_OS_module" />
         <item itemvalue="Python.25_first-class-functions_and_closures" />
         <item itemvalue="Python.24_generators_and_execution-times" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.24_generators" />
       </list>
     </recent_temporary>
   </component>
