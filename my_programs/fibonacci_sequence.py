@@ -16,20 +16,20 @@ else:
             term_2 = int(term_2)
         except ValueError:
             print("Error: Invalid term_2 entry. term_2 should be an integer!")
+finally:
+    fib_list = []
+    for x in range(1, nterms+1):
+        if x == 1:
+            fib_list.append(term1)
+        elif x == 2:
+            fib_list.append(term_2)
         else:
-            fib_list = []
-            for x in range(1, nterms+1):
-                if x == 1:
-                    fib_list.append(term1)
-                elif x == 2:
-                    fib_list.append(term_2)
-                else:
-                    fib_list.append(fib_list[x-3]+fib_list[x-2])
+            fib_list.append(fib_list[x-3]+fib_list[x-2])
 
-            # To convert all the int items on the list to str
-            fib_list_str = [str(i) for i in fib_list]
-            fib_string = ", ".join(fib_list_str[:])
-            print ("The resultant fibonacci sequence is", fib_string)
+    # To convert all the int items on the list to str
+    fib_list_str = [str(i) for i in fib_list]
+    fib_string = ", ".join(fib_list_str[:])
+    print ("The resultant fibonacci sequence is", fib_string)
 
 
 """

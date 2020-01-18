@@ -58,7 +58,7 @@ print('Company name:', e.getcompany())
 # print(e.__company)              # this would raise an error, since attributes that begin with '__' are private
 
 
-print('\n##################################### 2. property() FUNCTION #####################################\n')
+print('\n######################################### 2. property() FUNCTION #########################################\n')
 """
 In Python property()is a built-in function that creates and returns a property object. 
 A property object has three methods: getter(), setter(), and delete(). 
@@ -68,7 +68,7 @@ The property() function has four arguments:
     - fdel:     is a function for deleting an attribute value. 
     - doc:      creates a docstring for attribute. 
 
-Implementation:     x = property(fget, fset, fdel, doc)     where x is the name of the new property object
+Usage:      x = property(fget, fset, fdel, doc)     where x is the name of the new property object
 """
 
 
