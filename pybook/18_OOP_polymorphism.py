@@ -44,5 +44,6 @@ def pet_speak(pet_obj):
     print(type(pet_obj))
     pet_obj.speak()
 
+
 pet_speak(bruno)
 pet_speak(felix)

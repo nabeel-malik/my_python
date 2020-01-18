@@ -21,7 +21,7 @@ class Dog:    # The class keyword creates user-defined objects, as opposed to bu
         # Expecting boolean
         self.spots = spots
 
-    def bark(self, mood):                     # CLASS METHOD called bark()
+    def bark(self, mood):                     # INSTANCE METHOD called bark()
         mood = mood.title()
         print('{0} WOOF! from {1}'.format(mood, self.name))     # Notice how 'mood' parameter is not linked to 'self'
 
