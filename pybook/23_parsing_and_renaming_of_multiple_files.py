@@ -3,13 +3,14 @@ import shutil
 import time
 
 os.chdir('work_directory/parsing_and_renaming_of_multiple_files')
-print('\nCurrent directory:\t', os.getcwd())
+print('\nCurrent directory:\t', os.getcwd(), '\n')
 
-# shutil.rmtree() is used to remove a directory and its contents, recursively.
-shutil.rmtree('renamed_files')                              # Remove previously generated 'renamed_files' folder
-print("'renamed_files' folder removed.")
 
-time.sleep(10)                                               # adding a 10 seconds delay
+if os.path.isdir('renamed_files'):
+    # shutil.rmtree() is used to remove a directory and its contents, recursively.
+    shutil.rmtree('renamed_files')                              # Remove previously generated 'renamed_files' folder
+    print("'renamed_files' folder removed.")
+    time.sleep(15)                                               # adding a 10 seconds delay
 
 # shutil.copytree() is used to copy a directory and its contents, recursively, to another location.
 shutil.copytree('original_files', 'renamed_files')          # Copy 'original_files' folder to 'renamed_files' folder
@@ -18,7 +19,7 @@ print("'original_files' folder copied to 'renamed_files' folder.")
 os.chdir('renamed_files')
 print('\nCurrent directory:\t', os.getcwd())
 
-for f in os.listdir():
+for f in os.listdir():                          # returns a list of files and folders in a directory (default = current)
     f_name, f_ext = os.path.splitext(f)                     # separating file name from extension into a tuple
 
     f_title, f_course, f_num = f_name.split(" - ")          # splitting file name into a list

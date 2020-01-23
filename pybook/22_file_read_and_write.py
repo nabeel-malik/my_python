@@ -43,7 +43,7 @@ print('\n######################################### 1. READING FROM FILES #######
 
 with open('work_directory/file_read_and_write/test.txt', 'r') as f:
     print('\n------ .read() METHOD ------\n')
-    f_read = f.read()               # read entire contents as a STRING
+    f_read = f.read()               # read entire contents as a STRING by default, could specify size to read as arg.
     print(f_read)
     f.seek(0, 0)                    # reset pointer to file beginning
 

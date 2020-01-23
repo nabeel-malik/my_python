@@ -6,11 +6,13 @@ from datetime import datetime           # used later in os.stat() explanation
 
 print('\n######### 1. dir() FUNCTION, AND os.getcwd(), os.chdir() and os.listdir() METHODS FROM OS LIBRARY #########\n')
 
-print(dir(os),'\n')                     # prints all methods/attributes of an object/module
+print(dir(os), '\n')                    # prints all methods/attributes of an object/module
 
 print(os.getcwd())                      # get current working directory (cwd)
 os.chdir('work_directory/OS_module')    # change directory
 print(os.getcwd())
+print()
+
 print(os.listdir())                     # returns a list of files and folders in a directory (default = current)
 
 
@@ -52,14 +54,17 @@ print(os.getcwd())
 print()
 
 for dirpath, dirnames, filenames in os.walk(os.getcwd()):
-    print('Current path:', dirpath)
-    print('Directories:', dirnames)
-    print('Files:', filenames)
+    print('Current path:\t', dirpath)
+    print('Directories:\t', dirnames)
+    print('Files:\t\t\t', filenames)
     print()
 
 print('\n########################################## 5. os.path METHODS ##########################################\n')
 
-""" os.path() is used for common pathname manipulations """
+""" 
+os.path() is used for common pathname manipulations
+https://docs.python.org/2/library/os.path.html
+"""
 
 print(dir(os.path))         # print all methods/attributes available in the os.path module
 print()
