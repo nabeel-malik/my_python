@@ -1,5 +1,12 @@
-my_set = {1,3,2}
+mainlist = ['case1', 'case2', 'case_special_3', 'case_special_4', 'GRID.INC', 'MULTIREG.params', 'PERMX.GRDECL']
+otherlist = mainlist.copy()
 
-my_list = sorted(my_set)
+print(mainlist)
+print(otherlist)
 
-print(my_list)
+for item in mainlist:
+    if item.startswith('c'):
+        otherlist.remove(item)
+
+print(mainlist)
+print(otherlist)

@@ -9,8 +9,8 @@ print('\nCurrent directory:\t', os.getcwd(), '\n')
 if os.path.isdir('renamed_files'):
     # shutil.rmtree() is used to remove a directory and its contents, recursively.
     shutil.rmtree('renamed_files')                              # Remove previously generated 'renamed_files' folder
-    print("'renamed_files' folder removed.")
-    time.sleep(15)                                               # adding a 10 seconds delay
+    print("'renamed_files' directory removed.")
+    time.sleep(15)                                               # adding a 15 seconds delay
 
 # shutil.copytree() is used to copy a directory and its contents, recursively, to another location.
 shutil.copytree('original_files', 'renamed_files')          # Copy 'original_files' folder to 'renamed_files' folder

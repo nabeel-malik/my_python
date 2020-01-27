@@ -1,0 +1,13 @@
+-- Generated [
+-- Format      : ECLIPSE keywords (grid properties) (ASCII)
+-- Exported by : Petrel 2014.2 (64-bit) Schlumberger
+-- User name   : koverland
+-- Date        : Tuesday, June 09 2015 14:30:07
+-- Project     : PL375_GeoModel_FullArea_UPDATE_June15_sim.pet
+-- Grid        : Simulation_ZigZag_BandC_Seg1_UPDATE2_70_Alt3
+-- Unit system : ECLIPSE-Metric
+-- Generated ]
+
+ROCKNUM                                -- Generated : Petrel
+  598920*1 /
+

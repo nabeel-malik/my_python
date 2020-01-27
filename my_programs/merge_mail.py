@@ -2,11 +2,11 @@
 # Names are in the file names.txt
 # Body of the mail is in body.txt
 
-with open('./misc_files/names.txt', 'r') as name_file:
-    with open('./misc_files/body.txt', 'r') as body_file:
+with open('./work_directory/merge_mail/names.txt', 'r') as name_file:
+    with open('./work_directory/merge_mail/body.txt', 'r') as body_file:
         body = body_file.read()
         for name in name_file:
-            with open('./misc_files/email_{0}.txt'.format(name.strip()), 'w+') as email_file:
+            with open('./work_directory/merge_mail/email_{0}.txt'.format(name.strip()), 'w+') as email_file:
                 email_file.write("Hello " + name + body)
 
 '''

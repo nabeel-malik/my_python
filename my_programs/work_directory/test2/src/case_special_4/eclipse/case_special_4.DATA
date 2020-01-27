@@ -1,0 +1,292 @@
+-- Generated [ 
+-- Format      : ECLIPSE keywords (ASCII) 
+-- Exported by : Petrel 2014.2 (64-bit) Schlumberger 
+-- User name   : koverland 
+-- Date        : Tuesday, June 30 2015 14:47:09 
+-- Project     : PL375_GeoModel_FullArea_UPDATE_June15_sim.pet 
+-- Generated ] 
+ 
+RUNSPEC 
+ 
+FAULTDIM                               -- Generated : Petrel 
+397 / 
+ 
+EQLDIMS                                -- Generated : Petrel 
+1 1*  15 / 
+ 
+ENDSCALE 
+/ 
+ 
+ROCKCOMP 
+1*  1  / 
+ 
+TRACERS 
+1* 1 / 
+ 
+TITLE                                  -- Generated : Petrel 
+CASE_70_V2_DST_HM 
+ 
+WELLDIMS                               -- Generated : Petrel 
+13 125 10 13 / 
+ 
+VFPPDIMS 
+20 20 20 20  0 10 / 
+ 
+VFPIDIMS 
+20 20 3  / 
+ 
+LICENSES 
+'network' / 
+/ 
+ 
+--START                                  -- Generated : Petrel 
+--  1 DEC 2010 / 
+ 
+START                                  -- Generated : Petrel 
+1 OCT 2022 / 
+ 
+WATER                                  -- Generated : Petrel 
+ 
+OIL 
+ 
+--DISGAS 
+ 
+--GAS                                   -- Generated : Petrel 
+ 
+PETOPTS                                -- Generated : Petrel 
+INITNNC / 
+ 
+EQLOPTS                                -- Generated : Petrel 
+THPRES / 
+ 
+MONITOR                                -- Generated : Petrel 
+ 
+-- Updated to get unified output files - 05.08.2019 - NABM 
+UNIFOUT                                -- Generated : Petrel 
+ 
+--UNIFIN 
+ 
+METRIC                                 -- Generated : Petrel 
+ 
+DIMENS                                 -- Generated : Petrel 
+105 62 92 / 
+ 
+TABDIMS                                -- Generated : Petrel 
+3 1* 100 40 10 40 40 / 
+ 
+--REGDIMS                                -- Generated : Petrel 
+--  25 25 / 
+ 
+REGDIMS                                -- Generated : Petrel 
+25 25 1*   4  / 
+ 
+-- GRIDOPTS added to be able to define MULTNUM regions - 06.08.2019 - NABM 
+GRIDOPTS 
+1* 5 / 
+ 
+PARALLEL 
+2 DISTRIBUTED / 
+ 
+--NOSIM 
+ 
+--===== 
+GRID 
+ 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_GRID.INC' / 
+ 
+NOECHO                                 -- Generated : Petrel 
+ 
+GDFILE                                 -- Generated : Petrel 
+'include/CASE_70_GRID.EGRID' / 
+ 
+--INCLUDE                                -- Generated : Petrel 
+--'include/CASE_70_PROP_PERMX.GRDECL' / 
+--NOECHO 
+--INCLUDE                                -- Generated : Petrel 
+--'include/CASE_70_PROP_PERMY.GRDECL' / 
+ 
+-- Variogram permeability model from updated DST match - 21.11.2019 - NABM 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_PERMX_NEW1.GRDECL' / 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_PERMY_NEW1.GRDECL' / 
+ 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/PERMZ.INC' / 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_PORO.GRDECL' / 
+--sets PORO=0 in segment 1B 
+--'CASE_70_PORONEW.GRDECL' / 
+ 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_NTG.GRDECL' / 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_ACTNUM.GRDECL' / 
+ 
+INCLUDE 
+'include/MULTFLT.INC' / 
+ 
+ECHO                                   -- Generated : Petrel 
+ 
+-- FIPSEG copied to MULTNUM and U-shaped channel added - 16.08.2019 - NABM 
+--INCLUDE 
+--'include/MULTNUM.GRDECL' / 
+ 
+-- FIPSEG copied to MULTNUM and U-shaped channel kept DIAGONAL - 21.11.2019 - NABM 
+ 
+INCLUDE 
+'include/MULTNUM_CHAN.INC' / 
+ 
+INCLUDE 
+'include/MULTIREG_PERM.INC' / 
+ 
+INCLUDE 
+'include/MULTREGT.INC' / 
+ 
+MULTREGP 
+1  0.914  M  / 
+2  0.995  M  / 
+3  0.826  M  / 
+4  0.914  M  / 
+/ 
+ 
+RPTGRID 
+MULTREGT MULTREGP/ 
+ 
+--========== 
+EDIT 
+NOECHO 
+--DST HM parameter 
+--all gridcells multplied by 0.5 
+--segment 4 (low amplitude area) is multiplied by 0.5 in addition (0.5*0.5=0.25) 
+--TRANX 
+--INCLUDE 
+--'TRANXBASE.GRDECL' / 
+--TRANY 
+--INCLUDE 
+--'TRANYBASE.GRDECL' / 
+--TRANZ 
+--INCLUDE 
+--'TRANZBASE.GRDECL' / 
+ 
+--INCLUDE 
+--'include/MULTREGT_OPEN.INC' / 
+ 
+INCLUDE 
+'include/MULTNUM_N_BOX.INC' / 
+ 
+INCLUDE 
+'include/MULTREGT_OPEN_N.INC' / 
+ 
+INCLUDE 
+'include/MULTIREG_TRAN.INC' / 
+ 
+--reduces aquifer volume to 45 mill. Sm3 
+BOX 
+1  105  1  18 1  92 / 
+ 
+MULTPV 
+173880*0.0  / 
+ 
+--BOX 
+-- 1  105  1  62 1  25 / 
+--adjust inplace volume to Petrel 
+--MULTPV 
+--162750*0.92  / 
+ 
+INCLUDE 
+'include/MULTFLT_305.INC' / 
+ 
+--========== 
+PROPS 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROPS_EDIT_ROCKTAB_TRACER.INC' / 
+ 
+INCLUDE 
+'include/SOWCR.GRDECL' / 
+ 
+INCLUDE 
+'include/KRWR.GRDECL' / 
+ 
+INCLUDE 
+'include/SOWCR_KRWR_MULT.INC' / 
+ 
+--========= 
+REGIONS 
+ 
+NOECHO                                 -- Generated : Petrel 
+ 
+TNUMFIW1 
+598920*1 / 
+ 
+--INCLUDE                                -- Generated : Petrel 
+--'CASE_70_PROP_ENDNUM.GRDECL' / 
+ 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_SATNUM.GRDECL' / 
+ 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_PVTNUM.GRDECL' / 
+ 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_ROCKNUM.GRDECL' / 
+ 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_EQLNUM.GRDECL' / 
+ 
+-- 2 regions 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_PROP_FIPNUM.GRDECL' / 
+ 
+ 
+--FIPARE defines 3 segments 
+INCLUDE                                -- Generated : Petrel 
+'include/FIPNUM3.GRDECL' / 
+ 
+--FIPSEG defines 5 segments 
+INCLUDE                                -- Generated : Petrel 
+'include/FIPNUM5.GRDECL' /´ 
+ 
+NOECHO                                   -- Generated : Petrel 
+ 
+--========= 
+SOLUTION 
+NOECHO 
+-- 1 equilibrum region and RSVD keyword 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_SOL_TRACER.INC' / 
+ 
+--========== 
+SUMMARY 
+NOECHO 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_SUM_EDIT_NETWORK.INC' / 
+ 
+--========== 
+SCHEDULE 
+NOECHO 
+TUNING 
+1 3 7* 1 / 
+/ 
+2* 150 1* 80 20 4* / 
+ 
+--INCLUDE                                -- Generated : Petrel 
+--'CASE_70_SCH_WELPI_100.INC' / 
+ 
+ 
+-- Prediction SCH split in 2 due to Tempest ENABLE error 
+INCLUDE                                -- Generated : Petrel 
+'include/CASE_70_SCH_PRED_A_2_4.INC' / 
+ 
+INCLUDE 
+'include/CASE_70_SCH_PRED_B_2_4.INC' / 
+ 
+ 
+ 

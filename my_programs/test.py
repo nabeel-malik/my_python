@@ -9,6 +9,7 @@ from fnmatch import fnmatch, filter
 from os.path import isdir, join
 from shutil import copytree
 
+
 def include_patterns(*patterns):
     """Factory function that can be used with copytree() ignore parameter.
 
@@ -27,11 +28,17 @@ def include_patterns(*patterns):
     return _ignore_patterns
 
 
-src_dir = '//statoil.net/unix_st/Scratch/beta/nabm/beta_pred_v3_rev1_2chan_cases_2_4_fix.runs'
-dst_dir = '//statoil.net/unix_st/Scratch/beta/nabm/test.runs'
+src_dir = '//statoil.net/unix_st/Scratch/beta/nabm/beta_dst_hm_v1-4_nb1_open-N.runs'
+dst_dir = '//statoil.net/unix_st/Scratch/beta/nabm/test2.runs'
 
 os.chdir(src_dir)
 print('\nCurrent directory:\t', os.getcwd(), '\n')
+
+
+copytree(
+    src_dir,
+    dst_dir,
+    ignore=include_patterns('*.DATA', '*.params', '*.tmpl', '*.INC', '*.EGRID', '*.GRDECL', '.ptd'))
 
 
 # def ignored_files(*args):
@@ -69,10 +76,14 @@ print('\nCurrent directory:\t', os.getcwd(), '\n')
 #         f.write(ignored_files())
 #
 #
-copytree(
-    src_dir,
-    dst_dir,
-    ignore=include_patterns('*.DATA', '*/include/**/*'))
+# copytree(
+#     src_dir,
+#     dst_dir,
+#     ignore=include_patterns(
+#         '//statoil.net/unix_st/Scratch/beta/nabm/beta_pred_v3_rev1_2chan_cases_2_4_fix.runs/Case2c_no-dep_???/eclipse/'
+#         'model/*.DATA', '//statoil.net/unix_st/Scratch/beta/nabm/beta_pred_v3_rev1_2chan_cases_2_4_fix.runs/'
+#                         'Case2c_no-dep_???/eclipse/model/include/*'))
+
 
 
 
