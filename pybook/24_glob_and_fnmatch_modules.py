@@ -22,7 +22,7 @@ glob.escape(pathname)                       Escapes special characters in the pa
 
 That’s it! This is a succinct yet powerful module.
 
-Note: glob uses fnmatch under the hood, which is covered in the next section.
+Note: glob uses fnmatch under the hood (with a small difference), which is covered in the next section.
 
 My comment: 'glob' is a very useful library to utilise for searching for files and directories. This could be simply
 used by providing the UNIX style pathname patterns that are  fairly simple to understand and write.
@@ -108,3 +108,4 @@ print(glob.glob('case1/*'))         # 4 matches only, for the files and director
 print(fnmatch.fnmatch('case1/eclipse/case1', 'case1/*'))        # '/' is NOT a special character and is matched by '*'
 print(fnmatch.fnmatchcase('Case1/eclipse/case1', 'case1/*'))    # Case-sensitive fnmatch.fnmatch()
 print(fnmatch.filter(['case1/eclipse', 'case2/eclipse'], 'case1/*'))
+

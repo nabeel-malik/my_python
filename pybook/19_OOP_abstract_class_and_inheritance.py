@@ -19,11 +19,13 @@ class Animal:
     def speak(self):
         raise NotImplementedError("Subclass must implement this abstract method")
 
+
 # CHILD CLASS
 class Dog(Animal):
 
     def speak(self):
         print(self.name + " says WOOF!")
+
 
 # CHILD CLASS
 class Cat(Animal):

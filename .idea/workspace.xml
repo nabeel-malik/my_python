@@ -67,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.25_ignore_pattern_paths()_function_for_copytree()">
+  <component name="RunManager" selected="Python tests.pytest in test_32_unittest_module_1.py">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,125 +87,95 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="24_glob_and_fnmatch_libraries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for pybook.test_32_unittest_module_1.TestCalc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="Z:\python\code\my_python\pybook\24_glob_and_fnmatch_modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pybook.test_32_unittest_module_1.TestCalc&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="24_glob_and_fnmatch_modules" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for pybook.test_32_unittest_module_1.TestCalc.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/24_glob_and_fnmatch_modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pybook.test_32_unittest_module_1.TestCalc.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="24_glob_library" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for pybook.test_32_unittest_module_1.TestCalc.test_divide" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="Z:\python\code\my_python\pybook\24_glob_and_fnmatch_modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pybook.test_32_unittest_module_1.TestCalc.test_divide&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="25_ignore_pattern_paths()_function_for_copytree()" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for pybook.test_32_unittest_module_1.TestCalc.test_multiply" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/25_ignore_pattern_paths()_function_for_copytree().py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pybook.test_32_unittest_module_1.TestCalc.test_multiply&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in test_32_unittest_module_1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pybook/test_32_unittest_module_1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test2" />
-      <item itemvalue="Python.24_glob_library" />
-      <item itemvalue="Python.25_ignore_pattern_paths()_function_for_copytree()" />
-      <item itemvalue="Python.24_glob_and_fnmatch_libraries" />
-      <item itemvalue="Python.24_glob_and_fnmatch_modules" />
+      <item itemvalue="Python tests.pytest in test_32_unittest_module_1.py" />
+      <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc" />
+      <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc.test_add" />
+      <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc.test_multiply" />
+      <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc.test_divide" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.25_ignore_pattern_paths()_function_for_copytree()" />
-        <item itemvalue="Python.24_glob_and_fnmatch_modules" />
-        <item itemvalue="Python.24_glob_and_fnmatch_libraries" />
-        <item itemvalue="Python.24_glob_library" />
-        <item itemvalue="Python.test2" />
+        <item itemvalue="Python tests.pytest in test_32_unittest_module_1.py" />
+        <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc.test_divide" />
+        <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc.test_multiply" />
+        <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc.test_add" />
+        <item itemvalue="Python tests.pytest for pybook.test_32_unittest_module_1.TestCalc" />
       </list>
     </recent_temporary>
   </component>

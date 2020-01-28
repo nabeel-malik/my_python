@@ -9,7 +9,7 @@ class Circle:
         self.radius = radius
         self.area = Circle.pi * self.radius * self.radius       # We can create additional attributes inside '__init__'
 
-    # CLASS METHOD
+    # INSTANCE METHOD
     def get_circumference(self):
         return 2 * Circle.pi * self.radius       # We can use both 'Circle.pi' or 'self.pi'. 'Circle.pi' is preferred.
 
@@ -17,12 +17,12 @@ class Circle:
 my_circle = Circle(5)      # Creating and instance of the class Circle(). This is where 'area' attribute is calculated.
 
 print('########## Printing CLASS ATTRIBUTE ##########')
-print(my_circle.pi,'\n')
+print(my_circle.pi, '\n')
 
 print('########## Printing INSTANCE ATTRIBUTES ##########')
 my_circle.radius = 10    # Reassigning a new value to the 'radius' attribute will NOT recalculate 'area' attribute.
 print(my_circle.radius)
 print(my_circle.area,'\n')
 
-print('########## Printing CLASS METHOD return ##########')
+print('########## Printing INSTANCE METHOD return ##########')
 print(my_circle.get_circumference())
