@@ -22,7 +22,7 @@ There are 3 common ways to implement GETTER and SETTER functionality in Python:
     - @property DECORATOR (section 3)
 """
 
-print('\n##################################### 1. ONLY GETTER AND SETTER METHODS #####################################\n')
+print('\n#################################### 1. ONLY GETTER AND SETTER METHODS ####################################\n')
 """
 Using ONLY GETTER AND SETTER METHODS belongs to the sad world of Java/C++. In languages like Python it's unnecessary! 
 You can just begin with a plain attribute, letting clients access it. If, at some point, a need will arise to hide the 

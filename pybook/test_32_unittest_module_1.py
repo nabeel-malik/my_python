@@ -10,6 +10,7 @@ https://stackless.readthedocs.io/en/latest/library/unittest.html
 import unittest
 
 # Importing the module to be tested.
+# The following line is the same as saying:     import 32_unittest_module_1 as unittest_module
 unittest_module = __import__('32_unittest_module_1')  # to import a module starting with a digit in its name
 
 
@@ -40,8 +41,8 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(unittest_module.divide(-1, 1), -1)
         self.assertEqual(unittest_module.divide(-1, -1), 1)
 
-        # First way to test exceptions. Note: arguments are provided separately is because our function would
-        # actually throw that ValueError, and our test would think that something failed.
+        # First way to test exceptions. Note: arguments are provided separately because our function would actually
+        # throw that ValueError, and our test would think that something failed.
         self.assertRaises(ValueError, unittest_module.divide, 10, 0)
 
         # Second way to test exceptions is using a context manager. This is the preferred way.
