@@ -8,10 +8,11 @@ https://stackless.readthedocs.io/en/latest/library/unittest.html
 """
 
 import unittest
+import importlib
 
 # Importing the module to be tested.
 # The following line is the same as saying:     import 32_unittest_module_1 as unittest_module
-unittest_module = __import__('32_unittest_module_1')  # to import a module starting with a digit in its name
+unittest_module = importlib.import_module('32_unittest_module_1')  # to import a module starting with a digit
 
 
 # To create test methods, we first need to create a test class that inherits from the 'unittest.TestCase' class
