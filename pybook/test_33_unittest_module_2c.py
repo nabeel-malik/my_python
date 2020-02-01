@@ -10,16 +10,16 @@ print('\n################# STAGE 3: USING patch() FROM unittest.mock WHEN USING 
 """
 The information from the website, that the monthly_schedule() method gets, is something we want to 'mock', because we 
 do not want the success of our test to depend on the website being operational.
-The only things we care about for this test is:
-    - the get() method was called with the correct URL, and
+The only things we care about for this test are that:
+    - the get() method is called with the correct URL, and
     - our code behaves correctly whether the response is okay or not okay.
 
 unittest.mock provides a powerful mechanism for mocking objects, called patch(), which looks up an object in a given 
-module and replaces that object with a Mock.
+module and replaces that object with a Mock object.
 Usually, you use patch() as a decorator or a context manager to provide a scope in which you will mock the target 
 object. In this example, we will use patch() as a context manager. See: def test_monthly_schedule()
 
-unittest.mock library is something that we can study in more details, but it is not used a whole lot in regular 
+unittest.mock library is something that we can study in more detail, but it is not used a whole lot in regular 
 programming, and therefore, can be studied in more detail as and when the need arises.
 """
 
