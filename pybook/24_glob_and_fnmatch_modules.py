@@ -25,7 +25,7 @@ That’s it! This is a succinct yet powerful module.
 Note: glob uses fnmatch under the hood (with a small difference), which is covered in the next section.
 
 My comment: 'glob' is a very useful library to utilise for searching for files and directories. This could be simply
-used by providing the UNIX style pathname patterns that are  fairly simple to understand and write.
+used by providing the UNIX style pathname patterns that are fairly simple to understand and write.
 
 Recommended further reading:
 https://docs.python.org/2/library/glob.html
@@ -58,6 +58,10 @@ os.chdir(src_dir)
 
 print('\n################################ 1. NON-RECURSIVE SEARCH USING glob.glob() ################################\n')
 
+"""
+When the search is NON-RECURSIVE, glob.glob() searches at just one level.
+"""
+
 # glob.glob() will search in the current working directory (CWD)
 glob_results('case?')                   # 2 matches for all directories that match case? in the CWD
 glob_results('case?/*')                 # 8 matches for all files and directories inside case? (1 level below case?)
@@ -82,7 +86,7 @@ recursive flag).
 glob_results('case?/*')                         # 8 matches for non-recursive search (same as above)
 glob_results('case?/**', recursive=True)        # 69 matches for recursive search
 
-print('\n########################################### 3. fnmatch MODULE ###########################################\n')
+print('\n############################################ 3. fnmatch MODULE ############################################\n')
 """
 As stated earlier, glob uses fnmatch under the hood. Keep reading for the 'difference' between glob and fnmatch.
 

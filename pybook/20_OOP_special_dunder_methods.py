@@ -32,6 +32,6 @@ print(len(mybook))      # The len() function will now look for the __len__() DUN
 del mybook              # del function is used to delete instances of classes.
 
 """
-Look at '3_OOP_bank_account_challenge.py' in 'udemy_0_to_hero' directory for a challenge problem combining all the OOP 
-concepts from pybook.
+Look at X_OOP_blackjack_game & X_OOP_bank_account_challenge in 'udemy_0_to_hero' directory for challenge problems 
+combining a lot of the OOP concepts from pybook.
 """

@@ -29,7 +29,7 @@ import time
 
 
 def ignore_pattern_paths(src, *patterns):
-    """Function that can be used as copytree() ignore parameter. Patterns is a sequence of glob-style patterns that
+    """Function that can be used as copytree() ignore parameter. *patterns is a sequence of glob-style patterns that
     are used to exclude files"""
 
     def _ignore_pattern_paths(path, names):
