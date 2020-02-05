@@ -288,7 +288,4 @@ INCLUDE                                -- Generated : Petrel
 'include/CASE_70_SCH_PRED_A_2_4.INC' / 
  
 INCLUDE 
-'include/CASE_70_SCH_PRED_B_2_4.INC' / 
- 
- 
- 
+'include/CASE_70_SCH_PRED_B_2_4.INC' /

@@ -1,3 +1,2 @@
 INCLUDE
-'include/test2.INC' / 
-PROP
+'include/test2.INC' /
