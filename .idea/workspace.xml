@@ -22,11 +22,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>term_1</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pybook/remote_repo_pybook" />
@@ -46,13 +41,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\python\code\my_python\pybook" />
-      <recent name="I:\Private\nabm\python\regex" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\python\code\my_python\my_programs\work_directory\merge_mail" />
       <recent name="Y:\private\nabm\python\my_programs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\python\code\my_python\my_programs" />
+      <recent name="Z:\python\code\my_python\pybook" />
+      <recent name="I:\Private\nabm\python\regex" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.my_pack_sim_funcs">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +83,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="24_glob_and_fnmatch_modules" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="10_list_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/24_glob_and_fnmatch_modules.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/10_list_comprehensions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_packsim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5_dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regex/my_packsim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/5_dictionaries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="redemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="my_pack_sim_funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/resscripts/my_resscripts/my_pack_sim" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regex/redemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/resscripts/my_resscripts/my_pack_sim/my_pack_sim_funcs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regex/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,19 +189,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.24_glob_and_fnmatch_modules" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.my_packsim" />
-      <item itemvalue="Python.redemo" />
       <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.5_dictionaries" />
+      <item itemvalue="Python.test (3)" />
+      <item itemvalue="Python.10_list_comprehensions" />
+      <item itemvalue="Python.my_pack_sim_funcs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_pack_sim_funcs" />
+        <item itemvalue="Python.10_list_comprehensions" />
+        <item itemvalue="Python.test (3)" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.redemo" />
-        <item itemvalue="Python.my_packsim" />
-        <item itemvalue="Python.24_glob_and_fnmatch_modules" />
+        <item itemvalue="Python.5_dictionaries" />
       </list>
     </recent_temporary>
   </component>

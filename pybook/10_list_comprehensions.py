@@ -101,3 +101,13 @@ nested_list = [x*y for x in [2,4,6] for y in [1,10,1000]]
 print("nested_list = [x*y for x in [2,4,6] for y in [1,10,1000]]\nprint(nested_list)")
 print('>>', nested_list)
 
+print("####################### 5. any() FUNCTION, AND NO LEAKING OUT OF LIST COMPREHENSIONS #######################\n")
+"""
+Python any() function accepts an iterable (list, tuple, dictionary etc.) as an argument and returns True if any of the 
+element in iterable is True, else it returns False. If iterable is empty then any() method returns False.
+"""
+if any([x for x in range(10) if x >= 5]):   # [5, 6, 7, 8, 9]
+    print(True)
+    # Commenting in the following 'print(x)' command would give a NameError.
+    # x does not 'leak out' of the list comprehension (is inaccessible outside the comprehension).
+    # print(x)

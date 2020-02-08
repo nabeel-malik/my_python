@@ -93,7 +93,7 @@ class Employee:
     def deletecompany(self):
         del self.__company
 
-    # The following 3 lines of code will run before the code outside the class defintion
+    # The following 3 lines of code will run before the code outside the class definition
     company = property(getcompany, setcompany, deletecompany)       # property object assigned to 'company' variable
     print("New instance of '{}' class created.".format(type(company).__name__))       # to print class name
     print(company, '\n')                # will print the property object and its location on memory
