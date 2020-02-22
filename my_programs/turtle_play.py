@@ -1,5 +1,6 @@
 import turtle
 
+
 turtle.setup()
 turtle.screensize (1850, 1100, 'black')
 

@@ -37,18 +37,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_programs" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/private/resscripts/my_resscripts/my_pack_sim" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\python\code\my_python\my_programs\work_directory\merge_mail" />
-      <recent name="Y:\private\nabm\python\my_programs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\python\code\my_python\private\resscripts\my_resscripts\my_pack_sim" />
       <recent name="Z:\python\code\my_python\my_programs" />
       <recent name="Z:\python\code\my_python\pybook" />
       <recent name="I:\Private\nabm\python\regex" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\python\code\my_python\my_programs\work_directory\merge_mail" />
+      <recent name="Y:\private\nabm\python\my_programs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.my_pack_sim_funcs">
+  <component name="RunManager" selected="Python.oracle">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="23_parsing_and_renaming_of_multiple_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/5_dictionaries.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/23_parsing_and_renaming_of_multiple_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="oracle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/load_equinor_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/load_equinor_data/oracle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,19 +190,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.5_dictionaries" />
       <item itemvalue="Python.test (3)" />
       <item itemvalue="Python.10_list_comprehensions" />
       <item itemvalue="Python.my_pack_sim_funcs" />
+      <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
+      <item itemvalue="Python.oracle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.oracle" />
+        <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
         <item itemvalue="Python.my_pack_sim_funcs" />
         <item itemvalue="Python.10_list_comprehensions" />
         <item itemvalue="Python.test (3)" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.5_dictionaries" />
       </list>
     </recent_temporary>
   </component>
