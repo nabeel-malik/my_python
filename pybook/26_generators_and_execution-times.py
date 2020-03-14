@@ -8,6 +8,7 @@ Simply put, a GENERATOR is a function that returns an object (iterator) which we
 
 It is fairly simple to create a GENERATOR in Python. It is as easy as defining a normal function with 'yield' statement
 instead of a 'return' statement.
+
 If a function contains at least one 'yield' statement (it may contain other yield or return statements), it becomes a
 GENERATOR FUNCTION.
 """
@@ -48,7 +49,7 @@ for x in my_nums:           # printing generator output using a 'for' loop
 print('\n############################# 3. GENERATOR EXPRESSION (VS LIST COMPREHENSION) #############################\n')
 
 """
-The syntax for GENERATOR EXPRESSION is similar to that of a list comprehension, except that the [] are replaced with ().
+The syntax for GENERATOR EXPRESSION is similar to that of a LIST COMPREHENSION, except that the [] are replaced with ().
 
 GENERATORS produce items only when asked for. For this reason, GENERATOR EXPRESSIONS are much more memory efficient 
 than an equivalent list comprehension.
@@ -108,8 +109,8 @@ t3 = time.perf_counter()
 people_g = people_generator(1000000)
 t4 = time.perf_counter()
 
-print('Time taken for a list is:\t\t', t2-t1)
-print('Time taken for a generator is:\t', t4-t3)
+print('Time taken for a list is:\t\t', t2-t1, 'secs')
+print('Time taken for a generator is:\t', t4-t3, 'secs')
 
 
 print('\n############################# 5. GENERATORS VS LISTS - timeit.timeit() METHOD #############################\n')
@@ -170,5 +171,6 @@ def people_generator(num_people):
 people = people_generator(1000000)
 '''
 
-print('Time taken for a list is:\t\t', timeit.timeit(setup=import_modules, stmt=test_code_list, number=1))
-print('Time taken for a generator is:\t', timeit.timeit(setup=import_modules, stmt=test_code_generator, number=1))
+print('Time taken for a list is:\t\t', timeit.timeit(setup=import_modules, stmt=test_code_list, number=1), 'secs')
+print('Time taken for a generator is:\t', timeit.timeit(setup=import_modules, stmt=test_code_generator, number=1),
+      'secs')

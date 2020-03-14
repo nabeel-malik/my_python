@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.24_glob_and_fnmatch_modules">
+  <component name="RunManager" selected="Python.26_generators_and_execution-times">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_OOP_blackjack_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="26_generators_and_execution-times" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_programs/udemy_0_to_hero/4_OOP_blackjack_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/26_generators_and_execution-times.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,19 +196,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.4_OOP_blackjack_game" />
       <item itemvalue="Python.21_OS_module" />
       <item itemvalue="Python.22_file_read_and_write" />
       <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
       <item itemvalue="Python.24_glob_and_fnmatch_modules" />
+      <item itemvalue="Python.26_generators_and_execution-times" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.26_generators_and_execution-times" />
         <item itemvalue="Python.24_glob_and_fnmatch_modules" />
         <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
         <item itemvalue="Python.22_file_read_and_write" />
         <item itemvalue="Python.21_OS_module" />
-        <item itemvalue="Python.4_OOP_blackjack_game" />
       </list>
     </recent_temporary>
   </component>
