@@ -1,4 +1,4 @@
-'''
+"""
 SUMMARY:
     - INSTANCE METHODS need a class instance and can access the instance through 'self' .
     - CLASS METHODS don't need a class instance. They can't access the instance (self) but they have access to the
@@ -20,13 +20,13 @@ CLASS METHOD:
 
 STATIC METHOD:
     - This method is marked with a @staticmethod decorator to flag it as a STATIC METHOD.
-    - This type of method takes neither a self nor a cls parameter (but of course it’s free to accept an arbitrary
+    - This type of method takes neither a self nor a cls parameter (but of course it is free to accept an arbitrary
     number of other parameters).
     - Therefore a static method can neither modify object state nor class state.
     - They are restricted in what data they can access - and they are primarily a way to namespace your methods.
     - They behave like regular methods, but we include them in our classes because they have some logical connection
     to our class.
-'''
+"""
 
 print('\n######################################### 1. SIMPLE CLASS METHOD #########################################\n')
 
@@ -44,8 +44,9 @@ class Employee:
 
         Employee.num_of_emps += 1
 
+    # The next 2 methods are INSTANCE METHODS
     def fullname(self):
-        return '{} {}'.format(self.first, self.last)
+        return f'{self.first} {self.last}'
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)                  # we could also use Employee.raise_amt here
@@ -90,7 +91,7 @@ class Employee:
         Employee.num_of_emps += 1
 
     def fullname(self):
-        return '{} {}'.format(self.first, self.last)
+        return f'{self.first} {self.last}'
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)               # we could also use Employee.raise_amt here
@@ -99,17 +100,19 @@ class Employee:
     def set_raise_amt(cls, amount):
         cls.raise_amt = amount
 
-    # Class method being used as an ALTERNATIVE CONSTRUCTOR
+    # CLASS METHOD ALTERNATIVE CONSTRUCTOR
     @classmethod
     def from_string(cls, emp_str):                              # by convention, constructor names start with 'from'
         first, last, pay = emp_str.split('-')
         return cls(first, last, pay)                            # remember to return the Employee object
 
 
+# Employee strings
 emp_str_1 = 'John-Doe-70000'
 emp_str_2 = 'Steve-Smith-30000'
 emp_str_3 = 'Paul-Jackson-90000'
 
+# Using the CLASS METHOD ALTERNATIVE CONSTRUCTOR to create employee instances from strings
 new_emp_1 = Employee.from_string(emp_str_1)
 new_emp_2 = Employee.from_string(emp_str_2)
 new_emp_3 = Employee.from_string(emp_str_3)
@@ -147,7 +150,7 @@ class Employee:
         Employee.num_of_emps += 1
 
     def fullname(self):
-        return '{} {}'.format(self.first, self.last)
+        return f'{self.first} {self.last}'
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)                  # we could also use Employee.raise_amt here
@@ -156,7 +159,7 @@ class Employee:
     def set_raise_amt(cls, amount):
         cls.raise_amt = amount
 
-    # Class method being used as an ALTERNATIVE CONSTRUCTOR
+    # CLASS METHOD ALTERNATIVE CONSTRUCTOR
     @classmethod
     def from_string(cls, emp_str):                              # by convention, constructor names start with 'from'
         first, last, pay = emp_str.split('-')
