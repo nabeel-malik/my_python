@@ -15,7 +15,7 @@ def square(x):
 
 
 a = square(5)       # the result of square() function is assigned to 'a'.
-b = square          # the square() function is assigned to 'b', i.e. 'b' is a function.
+b = square          # the square() function, itself, is assigned to 'b', i.e. 'b' is a function.
 
 print(a)            # will print what is returned from square() function
 print(b)            # will print the function object and its location on memory
@@ -63,7 +63,7 @@ print('\n##################### 4. A FUNCTION BEING RETURNED FROM ANOTHER FUNCTIO
 
 def html_tag(tag):
     def wrap_text(msg):
-        print('<{0}>{1}</{0}>'.format(tag, msg))
+        print(f'<{tag}>{msg}</{tag}>')
 
     return wrap_text
 
@@ -81,9 +81,9 @@ print_p('Test paragraph!')
 print('\n############################################## 5. CLOSURES ##############################################\n')
 """
 A CLOSURE is a function object that remembers values in enclosing scopes even if they are not present in memory.
-A CLOSURE 'closes' over the 'free variables' from its environment.
-A 'free variable' is not defined in the current environment, i.e. collection of local variables, and is also not a 
-global variable. Therefore it must be defined elsewhere. And this is the concept of CLOSURES.
+A CLOSURE 'closes' over the 'FREE VARIABLES' from its environment.
+A 'FREE VARIABLE' is not defined in the current environment, i.e. in the collection of LOCAL variables, and is also 
+not a GLOBAL variable. Therefore it must be defined elsewhere. And this is the concept of CLOSURES.
 
 The following criteria must be met to create CLOSURE in Python:
     - We must have a nested function (function inside a function).
