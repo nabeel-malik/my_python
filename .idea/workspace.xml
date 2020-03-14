@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.23_parsing_and_renaming_of_multiple_files">
+  <component name="RunManager" selected="Python.24_glob_and_fnmatch_modules">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,27 +89,6 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
-    </configuration>
-    <configuration name="20_OOP_special_dunder_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/20_OOP_special_dunder_methods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="21_OS_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
@@ -174,6 +153,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="24_glob_and_fnmatch_modules" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/24_glob_and_fnmatch_modules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="4_OOP_blackjack_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,19 +196,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.20_OOP_special_dunder_methods" />
       <item itemvalue="Python.4_OOP_blackjack_game" />
       <item itemvalue="Python.21_OS_module" />
       <item itemvalue="Python.22_file_read_and_write" />
       <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
+      <item itemvalue="Python.24_glob_and_fnmatch_modules" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.24_glob_and_fnmatch_modules" />
         <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
         <item itemvalue="Python.22_file_read_and_write" />
         <item itemvalue="Python.21_OS_module" />
         <item itemvalue="Python.4_OOP_blackjack_game" />
-        <item itemvalue="Python.20_OOP_special_dunder_methods" />
       </list>
     </recent_temporary>
   </component>

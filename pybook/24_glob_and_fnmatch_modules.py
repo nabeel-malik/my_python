@@ -17,7 +17,7 @@ The API for using glob is brief, with three main methods:
 glob.glob(pathname, *, recursive=False)     The main guy: Returns a LIST of pathnames depending on the search criteria
                                             passed in with “pathname”
 glob.iglob(pathname, recursive=False)       Same as glob.glob, except that it returns an ITERATOR, meaning that not all
-                                            values get stored in memory - so can be much more efficient.
+                                            values get stored in memory - so it can be much more efficient.
 glob.escape(pathname)                       Escapes special characters in the passed in “pathname”.
 
 That’s it! This is a succinct yet powerful module.
@@ -98,8 +98,8 @@ The special characters used in shell-style wildcards are:
     [!seq]  -> matches any character not in 'seq'
     
 Difference between glob and fnmatch special characters:
-Note that the filename separator ('/' on Unix) is NOT special to this module. See module glob for pathname expansion 
-(glob uses fnmatch() to match pathname segments). 
+Note that the filename separator ('/' on Unix) is NOT special to the fnmatch module. 
+See module glob for pathname expansion (glob uses fnmatch() to match pathname segments). 
 Similarly, filenames starting with a period are not special for this module, and are matched by the * and ? patterns.
 
 Usage:
