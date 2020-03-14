@@ -10,6 +10,7 @@ if os.path.isdir('renamed_files'):
     # shutil.rmtree() is used to remove a directory and its contents, recursively.
     shutil.rmtree('renamed_files')                              # Remove previously generated 'renamed_files' folder
     print("'renamed_files' directory removed.")
+    print("Sleeping for 15 seconds... \n")
     time.sleep(15)                                               # adding a 15 seconds delay
 
 # shutil.copytree() is used to copy a directory and its contents, recursively, to another location.
@@ -28,7 +29,7 @@ for f in os.listdir():                          # returns a list of files and fo
     f_course = f_course.strip()
     f_num = f_num.strip()[1:].zfill(2)                      # [1:] used to remove '#', .zfill() used for zero-padding
 
-    new_name = '{} - {} - {}{}'.format(f_num, f_title, f_course, f_ext)
+    new_name = f'{f_num} - {f_title} - {f_course}{f_ext}'
 
     os.rename(f, new_name)
 
