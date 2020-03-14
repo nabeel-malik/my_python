@@ -13,16 +13,16 @@ try:
 except TypeError:
     print('There was a type error!')
 
-except OSError: # we will get and OSError because we opened the file in read mode, but are attempting to write to it.
+except OSError:  # we will get and OSError because we opened the file in read mode, but are attempting to write to it.
     print('There was an OS error')
 
 except:                             # PEP8 recommends not to use bare 'except'
-    print('All other exceptions.')
+    print('Other exception.')
 
 else:
     print('No error was raised.')
 
-finally:
+finally:                            # code in 'finally' block will always run.
     print('I always run.')
 
 print('\n######################## 2. try, except, else, finally WITH while True - EXAMPLE 2 ########################\n')
