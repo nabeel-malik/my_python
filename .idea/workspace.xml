@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.28_decorators">
+  <component name="RunManager" selected="Python.my_pack_sim">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,27 +89,6 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
-    </configuration>
-    <configuration name="24_glob_and_fnmatch_modules" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/24_glob_and_fnmatch_modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="26_generators_and_execution-times" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
@@ -195,20 +174,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_pack_sim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/resscripts/my_resscripts/my_pack_sim" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/resscripts/my_resscripts/my_pack_sim/my_pack_sim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.24_glob_and_fnmatch_modules" />
       <item itemvalue="Python.26_generators_and_execution-times" />
       <item itemvalue="Python.27_first-class-functions_and_closures" />
       <item itemvalue="Python.30_errors_and_exceptions_handling" />
       <item itemvalue="Python.28_decorators" />
+      <item itemvalue="Python.my_pack_sim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_pack_sim" />
         <item itemvalue="Python.28_decorators" />
         <item itemvalue="Python.30_errors_and_exceptions_handling" />
         <item itemvalue="Python.27_first-class-functions_and_closures" />
         <item itemvalue="Python.26_generators_and_execution-times" />
-        <item itemvalue="Python.24_glob_and_fnmatch_modules" />
       </list>
     </recent_temporary>
   </component>
