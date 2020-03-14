@@ -15,7 +15,7 @@ class Book:
 
     # print() function just displays the string representation [str() function] of the given object.
     def __str__(self):
-        return "{0} by {1}".format(self.title, self.author)
+        return f'{self.title} by {self.author}'
 
     def __len__(self):
         return self.pages
