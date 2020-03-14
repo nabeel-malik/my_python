@@ -15,7 +15,7 @@ print('\n############################### 1. THE SIMPLEST DECORATOR FUNCTION EXAM
 # DECORATOR FUNCTION
 def decorator_function(original_function):
     def wrapper_function():
-        print('wrapper executed this before {}'.format(original_function.__name__))  # added functionality
+        print(f'wrapper executed this before {original_function.__name__}()')  # added functionality
         return original_function()
     return wrapper_function                     # notice that wrapper_function 'object' is returned, and not its result
 
@@ -41,7 +41,7 @@ The following is a DECORATOR FUNCTION example. An example for the syntax of a DE
 # DECORATOR FUNCTION
 def decorator_function(original_function):
     def wrapper_function():
-        print('wrapper executed this before {}'.format(original_function.__name__))     # added functionality
+        print(f'wrapper executed this before {original_function.__name__}()')  # added functionality
         return original_function()
     return wrapper_function
 
@@ -68,7 +68,7 @@ and would have to be modified such that the wrapper_function() is able to take a
 # DECORATOR FUNCTION
 def decorator_function(original_function):
     def wrapper_function(*args, **kwargs):
-        print('wrapper executed this before {}'.format(original_function.__name__))     # added functionality
+        print(f'wrapper executed this before {original_function.__name__}()')  # added functionality
         return original_function(*args, **kwargs)
     return wrapper_function
 
@@ -80,7 +80,7 @@ def display():
 
 @decorator_function
 def display_info(name, age):
-    print('display_info() ran with arguments {} and {}!'.format(name, age))
+    print(f'display_info() ran with arguments {name} and {age}!')
 
 
 display()                   # would run the display() function with the added functionality from wrapper_function()
@@ -101,7 +101,7 @@ class DecoratorClass(object):               # not sure why 'object' is added in 
         self.original_function = original_function
 
     def __call__(self, *args, **kwargs):
-        print('call method executed this before {}'.format(self.original_function.__name__))  # added functionality
+        print(f'call method executed this before {self.original_function.__name__}()')  # added functionality
         return self.original_function(*args, **kwargs)
 
 
@@ -112,7 +112,7 @@ def display():
 
 @DecoratorClass
 def display_info(name, age):
-    print('display_info() ran with arguments {} and {}!'.format(name, age))
+    print(f'display_info() ran with arguments {name} and {age}!')
 
 
 display()                   # would run the display() function with the added functionality from call method
@@ -134,11 +134,11 @@ apply it at multiple locations anywhere in our codebase.
 def my_logger(orig_func):
 
     import logging
-    logging.basicConfig(filename='work_directory/decorators/{}.log'.format(orig_func.__name__), level=logging.INFO)
+    logging.basicConfig(filename=f'work_directory/decorators/{orig_func.__name__}.log', level=logging.INFO)
 
     def wrapper(*args, **kwargs):
-        logging.info('Ran with args: {}, and kwargs: {}'. format(args, kwargs))         # writing to the log file
-        print('A new entry is made to the {}.log file.'.format(orig_func.__name__))
+        logging.info(f'Ran with args: {args}, and kwargs: {kwargs}')         # writing to the log file
+        print(f'A new entry is made to the {orig_func.__name__}.log file.')
         return orig_func(*args, **kwargs)
 
     return wrapper
@@ -146,7 +146,7 @@ def my_logger(orig_func):
 
 @my_logger
 def display_info(name, age):
-    print('display_info() ran with arguments {} and {}!'.format(name, age))
+    print(f'display_info() ran with arguments {name} and {age}!')
 
 
 display_info('John', 25)
@@ -168,7 +168,7 @@ def my_timer(orig_func):
         t1 = time.perf_counter()
         result = orig_func(*args, **kwargs)     # display_info() runs here
         t2 = time.perf_counter()
-        print('{}() ran in {} seconds'.format(orig_func.__name__, t2-t1))
+        print(f'{orig_func.__name__}() ran in {t2-t1} secs.')
         return result           # this line can be commented out since orig_func(*args, **kwargs) has already been run
 
     return wrapper
@@ -177,7 +177,7 @@ def my_timer(orig_func):
 @my_timer
 def display_info(name, age):
     time.sleep(2)                               # time delay added just to take 2 more seconds to run the function.
-    print('display_info() ran with arguments {} and {}!'.format(name, age))
+    print(f'display_info() ran with arguments {name} and {age}!')
 
 
 display_info('Layla', 33)
@@ -203,8 +203,8 @@ def my_logger(orig_func):
 
     @wraps(orig_func)           # nested @wraps decorator, with the DECORATED FUNCTION argument name as an argument
     def wrapper(*args, **kwargs):
-        logging.info('Ran with args: {}, and kwargs: {}'. format(args, kwargs))         # writing to the log file
-        print('A new entry is made to the {}.log file.'.format(orig_func.__name__))
+        logging.info(f'Ran with args: {args}, and kwargs: {kwargs}')         # writing to the log file
+        print(f'A new entry is made to the {orig_func.__name__}.log file.')
         return orig_func(*args, **kwargs)
 
     return wrapper
@@ -218,7 +218,7 @@ def my_timer(orig_func):
         t1 = time.perf_counter()
         result = orig_func(*args, **kwargs)     # display_info() runs here
         t2 = time.perf_counter()
-        print('{}() ran in {} seconds'.format(orig_func.__name__, t2-t1))
+        print(f'{orig_func.__name__}() ran in {t2-t1} secs.')
         return result           # this line can be commented out since orig_func(*args, **kwargs) has already been run
 
     return wrapper
@@ -228,7 +228,7 @@ def my_timer(orig_func):
 @my_timer
 def display_info(name, age):
     time.sleep(2)                               # time delay added just to take 2 more seconds to run the function.
-    print('display_info() ran with arguments {} and {}!'.format(name, age))
+    print(f'display_info() ran with arguments {name} and {age}!')
 
 
 '''
@@ -245,12 +245,12 @@ print('\n########################### 8. DECORATOR FUNCTIONS WITH ADDITIONAL ARGU
 
 
 # NESTED DECORATOR FUNCTION (to accept additional arguments)
-def argument_decorator(argument):           # a decorator, that accepts the 'addtional' argument, added 1 level higher
+def argument_decorator(argument):           # a decorator, that accepts the 'additional' argument, added 1 level higher
     def original_decorator(orig_func):      # original decorator function
         def wrapper(*args, **kwargs):
-            print('{} Executed before {}()'.format(argument, orig_func.__name__))
+            print(f'{argument} Executed before {orig_func.__name__}()')
             result = orig_func(*args, **kwargs)     # display_info() runs here
-            print('{} Executed after {}()'.format(argument, orig_func.__name__))
+            print(f'{argument} Executed after {orig_func.__name__}()')
             return result
 
         return wrapper
@@ -259,7 +259,7 @@ def argument_decorator(argument):           # a decorator, that accepts the 'add
 
 @argument_decorator('LOG:')           # decorated with the 'highest' level decorator and its argument
 def display_info(name, age):
-    print('display_info() ran with arguments {} and {}!'.format(name, age))
+    print(f'display_info() ran with arguments {name} and {age}!')
 
 
 display_info('Sara', 26)
