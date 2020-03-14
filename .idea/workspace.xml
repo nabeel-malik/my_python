@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490959a4-e725-4e27-8fe3-91f94df746ab" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +58,19 @@
       <recent name="Y:\private\nabm\python\my_programs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.25_ignore_pattern_paths()_function_for_copytree()">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.15_OOP_class_intro_attributes_and_methods">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +90,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="10_list_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15_OOP_class_intro_attributes_and_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/10_list_comprehensions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/15_OOP_class_intro_attributes_and_methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,19 +196,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.10_list_comprehensions" />
       <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
       <item itemvalue="Python.25_ignore_pattern_paths()_function_for_copytree()" />
       <item itemvalue="Python.my_pack_sim_funcs" />
       <item itemvalue="Python.oracle" />
+      <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods" />
         <item itemvalue="Python.25_ignore_pattern_paths()_function_for_copytree()" />
         <item itemvalue="Python.oracle" />
         <item itemvalue="Python.23_parsing_and_renaming_of_multiple_files" />
         <item itemvalue="Python.my_pack_sim_funcs" />
-        <item itemvalue="Python.10_list_comprehensions" />
       </list>
     </recent_temporary>
   </component>

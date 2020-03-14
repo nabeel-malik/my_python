@@ -2,7 +2,7 @@
 There are 2 kinds of attributes: CLASS ATTRIBUTES, and INSTANCE ATTRIBUTES.
 'CLASS ATTRIBUTES' are common to ALL instances of the class. They are defined above '__init__'.
 'INSTANCE ATTRIBUTES' are specific to particular instances of the class. They are defined inside __init__'.
-Any function defined 'inside' a class is called a 'method'.
+Any function defined 'inside' a class is called a 'METHOD'.
 
 '__init__' is a special method that is called whenever Python creates a new instance of the class (Instantiation).
 The first parameter 'self' is mandatory, and just refers to that particular instance of the class.
@@ -14,7 +14,7 @@ print('\n##################################### 1. CLASS EXAMPLE 1 - DOG CLASS ##
 
 class Dog:    # The class keyword creates user-defined objects, as opposed to built-in objects like strings and lists.
 
-    species = 'Mammal'                  # 'mammal' assigned to CLASS ATTRIBUTE called 'species'
+    species = 'Mammal'                  # 'Mammal' assigned to CLASS ATTRIBUTE called 'species'
 
     def __init__(self, breed, name, spots):          # INSTANTIATION METHOD, aka INIT METHOD
 
@@ -27,7 +27,7 @@ class Dog:    # The class keyword creates user-defined objects, as opposed to bu
 
     def bark(self, mood):                     # INSTANCE METHOD called bark()
         mood = mood.title()
-        print('{0} WOOF! from {1}'.format(mood, self.name))     # Notice how 'mood' parameter is not linked to 'self'
+        print(f'{mood} WOOF! from {self.name}')     # Notice how 'mood' parameter is not linked to 'self'
 
 
 my_dog = Dog('Huskie', 'Oscar', False)      # Creating an instance of the class Dog() called my_dog
@@ -73,7 +73,7 @@ print(my_circle.pi, '\n')
 print('---------- Printing INSTANCE ATTRIBUTES ----------')
 my_circle.radius = 10    # Reassigning a new value to the 'radius' attribute will NOT recalculate 'area' attribute.
 print(my_circle.radius)
-print(my_circle.area,'\n')
+print(my_circle.area, '\n')
 
 print('---------- Printing INSTANCE METHOD return ----------')
 print(my_circle.get_circumference())
