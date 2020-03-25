@@ -2,8 +2,10 @@
 A programming language is said to have FIRST-CLASS FUNCTIONS if it treats functions as FIRST-CLASS CITIZENS.
 
 A FIRST-CLASS CITIZEN (sometimes called FIRST-CLASS OBJECTS) in a programming language is an entity which supports all
-the operations generally available to other entities. These operations typically include being assigned to a variable,
-being passed as an argument, and being returned from a function.
+the operations generally available to other entities. These operations typically include:
+    - being assigned to a variable,
+    - being passed as an argument, and
+    - being returned from a function.
 
 """
 

@@ -1,0 +1,12 @@
+LOG OF LINE ENDING CHANGES WHEN RUNNING 'git add -A' IN GIT BASH:
+
+NABM@LT-115279 MINGW64 //statoil.net/unix_st/private/nabm/python/code/my_python (master)
+$ git add -A
+warning: LF will be replaced by CRLF in pybook/34_jupyter_notebook_tutorial.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/work_directory/pandas/data/README_2019.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/work_directory/pandas/data/survey_results_public.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/work_directory/pandas/data/survey_results_schema.csv.
+The file will have its original line endings in your working directory
