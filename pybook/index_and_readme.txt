@@ -10,3 +10,15 @@ warning: LF will be replaced by CRLF in pybook/work_directory/pandas/data/survey
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in pybook/work_directory/pandas/data/survey_results_schema.csv.
 The file will have its original line endings in your working directory
+
+NABM@LT-115279 MINGW64 //statoil.net/unix_st/private/nabm/python/code/my_python (master)
+$ git add -A
+warning: LF will be replaced by CRLF in pybook/.ipynb_checkpoints/36_pandas_DataFrame_and_Series_basics-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/36_pandas_DataFrame_and_Series_basics.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/.ipynb_checkpoints/37_pandas_indexes-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/37_pandas_indexes.ipynb.
+The file will have its original line endings in your working directory
+
