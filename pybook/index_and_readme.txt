@@ -41,4 +41,12 @@ The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in pybook/38_pandas_filtering.ipynb.
 The file will have its original line endings in your working directory
 
+NABM@LT-115279 MINGW64 //statoil.net/unix_st/private/nabm/python/code/my_python (master)
+$ git add -A
+warning: LF will be replaced by CRLF in pybook/.ipynb_checkpoints/38_pandas_filtering-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pybook/38_pandas_filtering.ipynb.
+The file will have its original line endings in your working directory
+
+
 
