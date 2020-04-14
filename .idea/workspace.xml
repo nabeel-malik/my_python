@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,7 +57,7 @@
       <recent name="Y:\private\nabm\python\my_programs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.15_OOP_class_intro_attributes_and_methods">
+  <component name="RunManager" selected="Python.48b_matplotlib_creating_and_customizing_our_first_plots (1)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,6 +119,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="48b_matplotlib_creating_and_customizing_our_first_plots (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybook/48b_matplotlib_creating_and_customizing_our_first_plots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="48b_matplotlib_creating_and_customizing_our_first_plots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="Z:\private\nabm\python\code\my_python\pybook\48b_matplotlib_creating_and_customizing_our_first_plots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="6_conditionals_booleans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,62 +182,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="on-premise_pdm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/load_equinor_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/load_equinor_data/on-premise_pdm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pdm_in_omnia" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/load_equinor_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/load_equinor_data/pdm_in_omnia.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.on-premise_pdm" />
-      <item itemvalue="Python.pdm_in_omnia" />
       <item itemvalue="Python.14_mutation_vs_reassignment" />
       <item itemvalue="Python.6_conditionals_booleans" />
       <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods" />
+      <item itemvalue="Python.48b_matplotlib_creating_and_customizing_our_first_plots" />
+      <item itemvalue="Python.48b_matplotlib_creating_and_customizing_our_first_plots (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.48b_matplotlib_creating_and_customizing_our_first_plots (1)" />
+        <item itemvalue="Python.48b_matplotlib_creating_and_customizing_our_first_plots" />
         <item itemvalue="Python.15_OOP_class_intro_attributes_and_methods" />
         <item itemvalue="Python.6_conditionals_booleans" />
         <item itemvalue="Python.14_mutation_vs_reassignment" />
-        <item itemvalue="Python.pdm_in_omnia" />
-        <item itemvalue="Python.on-premise_pdm" />
       </list>
     </recent_temporary>
   </component>
@@ -229,30 +229,36 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1921" height="1104" key="GridCell.Tab.0.bottom" timestamp="1586537316046">
+    <state width="1921" height="1104" key="GridCell.Tab.0.bottom" timestamp="1586889150890">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584118966689" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586537316046" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.center" timestamp="1586537316044">
+    <state width="1921" height="1104" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586889150890" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@1920.0.1920.1160" timestamp="1586888367818" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.center" timestamp="1586889150889">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="132" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584118966689" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586537316044" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.left" timestamp="1586537316043">
+    <state width="1921" height="1104" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586889150889" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@1920.0.1920.1160" timestamp="1586888367818" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.left" timestamp="1586889150889">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="132" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584118966688" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586537316043" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.right" timestamp="1586537316045">
+    <state width="1921" height="1104" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586889150889" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@1920.0.1920.1160" timestamp="1586888367818" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.right" timestamp="1586889150890">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="132" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584118966689" />
-    <state width="1921" height="1104" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586537316045" />
-    <state x="349" y="82" key="SettingsEditor" timestamp="1584886785750">
+    <state width="1921" height="1104" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586889150890" />
+    <state width="1921" height="1104" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@1920.0.1920.1160" timestamp="1586888367818" />
+    <state x="357" y="403" key="SettingsEditor" timestamp="1586873002903">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584115874998" />
+    <state x="357" y="403" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@0.0.1920.1160" timestamp="1586873002903" />
+    <state x="2269" y="82" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160/3840.0.1536.824@1920.0.1920.1160" timestamp="1586872757884" />
     <state x="349" y="82" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1584886785750" />
     <state x="614" y="465" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586536888642">
       <screen x="0" y="0" width="1920" height="1160" />
