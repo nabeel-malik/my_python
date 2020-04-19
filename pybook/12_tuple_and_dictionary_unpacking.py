@@ -15,4 +15,4 @@ my_tup = (3,6)
 
 
 add(**my_dict)  # Dictionary unpacking: Unpacking multiple keys and their values from a dictionary into a function.
-add(*my_tup)    # Tuple unpacking: Unpacking elements from a tuple into a function (positional arguments)
+add(*my_tup)    # Tuple unpacking: Unpacking elements from a tuple into a function.
