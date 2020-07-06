@@ -84,14 +84,14 @@ print('print(student.values())\t\t\t\t\t', student.values())
 # .items() returns a view object that displays a list of dictionary's (key, value) tuple pairs.
 print('print(student.items())\t\t\t\t\t', student.items())
 
-print('\n######################## LOOPING THROUGH A DICTIONARY & .items() ATTRIBUTE ########################\n')
+print('\n######################## LOOPING THROUGH A DICTIONARY & .items() METHOD ########################\n')
 # If we loop through a dictionary the same way we loop through lists, i.e. without using the .items() method),
 # we will just loop through the keys.
 
 student = {'name': 'John', 'age': 25, 'gender': 'male'}
 print('student:\t\t\t\t\t\t\t\t', student)
 
-print('\nfor element in student():     print(element)')
+print('\nfor element in student:     print(element)')
 for element in student:        # loops through dictionary keys by default
     print(element)
 
