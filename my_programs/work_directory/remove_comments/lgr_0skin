@@ -1,0 +1,196 @@
+WELSPECL
+-- Well  Grp  LGR     I   J   RefDepth  Type  DrainRad  GasInEq  AutoShut  XFlow  FluidPVT  HydSDens  FluidInPlReg
+   2S    1*   LGR_2S  47  27  1*        OIL   0.0       STD      STOP      YES    0         SEG       0            /
+    /
+COMPDATL
+-- Well   LgrName   I    J    K1   K2   Status   SAT   TR             DIAM      KH   S         Df   DIR
+-- ---- Completions for completion type Perforation ----
+-- Perforation Completion : MD In: 3676.66 - MD Out: 3678.68 Transmissibility: 0.27113
+   2S     LGR_2S    44   28   8    8    OPEN     1*    2.711300E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3678.68 - MD Out: 3679.27 Transmissibility: 0.0792538
+   2S     LGR_2S    43   28   8    8    OPEN     1*    7.925382E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3679.27 - MD Out: 3682.43 Transmissibility: 1.8432
+   2S     LGR_2S    43   28   9    9    OPEN     1*    1.843198E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3682.43 - MD Out: 3685.57 Transmissibility: 1.82732
+   2S     LGR_2S    43   28   10   10   OPEN     1*    1.827320E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3685.62 - MD Out: 3688.68 Transmissibility: 0.00747291
+   2S     LGR_2S    42   28   11   11   OPEN     1*    7.472906E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3688.68 - MD Out: 3691.76 Transmissibility: 0.00754796
+   2S     LGR_2S    42   28   12   12   OPEN     1*    7.547962E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3691.76 - MD Out: 3692.46 Transmissibility: 2.96821
+   2S     LGR_2S    42   28   13   13   OPEN     1*    2.968207E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3692.51 - MD Out: 3693.27 Transmissibility: 3.16477
+   2S     LGR_2S    41   28   14   14   OPEN     1*    3.164772E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3693.27 - MD Out: 3694.02 Transmissibility: 0.000797015
+   2S     LGR_2S    41   28   15   15   OPEN     1*    7.970153E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3694.02 - MD Out: 3694.46 Transmissibility: 0.000466389
+   2S     LGR_2S    41   28   16   16   OPEN     1*    4.663895E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3694.46 - MD Out: 3694.77 Transmissibility: 0.000330798
+   2S     LGR_2S    41   29   16   16   OPEN     1*    3.307980E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3694.77 - MD Out: 3695.52 Transmissibility: 4.89192
+   2S     LGR_2S    41   29   17   17   OPEN     1*    4.891921E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3695.52 - MD Out: 3696.27 Transmissibility: 4.89335
+   2S     LGR_2S    41   29   18   18   OPEN     1*    4.893352E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3696.27 - MD Out: 3697.03 Transmissibility: 28.4556
+   2S     LGR_2S    41   29   19   19   OPEN     1*    2.845561E+01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3697.03 - MD Out: 3697.78 Transmissibility: 28.466
+   2S     LGR_2S    41   29   20   20   OPEN     1*    2.846600E+01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3697.78 - MD Out: 3698.53 Transmissibility: 9.43728
+   2S     LGR_2S    41   29   21   21   OPEN     1*    9.437284E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3698.53 - MD Out: 3699.19 Transmissibility: 8.27005
+   2S     LGR_2S    41   29   22   22   OPEN     1*    8.270051E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3699.29 - MD Out: 3700.06 Transmissibility: 0.00759435
+   2S     LGR_2S    40   29   23   23   OPEN     1*    7.594347E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3700.06 - MD Out: 3700.83 Transmissibility: 0.00758937
+   2S     LGR_2S    40   29   24   24   OPEN     1*    7.589365E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3700.83 - MD Out: 3701.61 Transmissibility: 0.22513
+   2S     LGR_2S    40   29   25   25   OPEN     1*    2.251304E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3701.61 - MD Out: 3702.38 Transmissibility: 0.225232
+   2S     LGR_2S    40   29   26   26   OPEN     1*    2.252319E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3702.38 - MD Out: 3703.15 Transmissibility: 3.36483
+   2S     LGR_2S    40   29   27   27   OPEN     1*    3.364829E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3703.15 - MD Out: 3703.92 Transmissibility: 3.35579
+   2S     LGR_2S    40   29   28   28   OPEN     1*    3.355794E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3703.92 - MD Out: 3704.69 Transmissibility: 22.1767
+   2S     LGR_2S    40   29   29   29   OPEN     1*    2.217674E+01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3704.69 - MD Out: 3705.46 Transmissibility: 22.1559
+   2S     LGR_2S    40   29   30   30   OPEN     1*    2.215592E+01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3705.46 - MD Out: 3706.13 Transmissibility: 0.322295
+   2S     LGR_2S    40   29   31   31   OPEN     1*    3.222948E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3706.22 - MD Out: 3706.99 Transmissibility: 0.364351
+   2S     LGR_2S    39   29   32   32   OPEN     1*    3.643513E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3706.99 - MD Out: 3707.76 Transmissibility: 6.36313
+   2S     LGR_2S    39   29   33   33   OPEN     1*    6.363129E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3707.76 - MD Out: 3708.52 Transmissibility: 6.36834
+   2S     LGR_2S    39   29   34   34   OPEN     1*    6.368341E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3708.52 - MD Out: 3709.29 Transmissibility: 12.7136
+   2S     LGR_2S    39   29   35   35   OPEN     1*    1.271358E+01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3709.29 - MD Out: 3710.05 Transmissibility: 12.7041
+   2S     LGR_2S    39   29   36   36   OPEN     1*    1.270409E+01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3710.05 - MD Out: 3710.82 Transmissibility: 4.81868
+   2S     LGR_2S    39   29   37   37   OPEN     1*    4.818679E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3710.82 - MD Out: 3711.58 Transmissibility: 4.81577
+   2S     LGR_2S    39   29   38   38   OPEN     1*    4.815772E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3711.58 - MD Out: 3712.35 Transmissibility: 4.63531
+   2S     LGR_2S    39   29   39   39   OPEN     1*    4.635314E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3712.35 - MD Out: 3712.84 Transmissibility: 2.95751
+   2S     LGR_2S    39   29   40   40   OPEN     1*    2.957509E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3712.84 - MD Out: 3713.11 Transmissibility: 1.67338
+   2S     LGR_2S    38   29   40   40   OPEN     1*    1.673381E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3713.11 - MD Out: 3713.88 Transmissibility: 3.41423
+   2S     LGR_2S    38   29   41   41   OPEN     1*    3.414233E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3713.88 - MD Out: 3714.64 Transmissibility: 3.4059
+   2S     LGR_2S    38   29   42   42   OPEN     1*    3.405902E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3714.64 - MD Out: 3715.4 Transmissibility: 1.23637
+   2S     LGR_2S    38   29   43   43   OPEN     1*    1.236373E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3715.4 - MD Out: 3716 Transmissibility: 0.984535
+   2S     LGR_2S    38   29   44   44   OPEN     1*    9.845348E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3716 - MD Out: 3716.16 Transmissibility: 0.2506
+   2S     LGR_2S    38   30   44   44   OPEN     1*    2.506004E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3716.16 - MD Out: 3716.92 Transmissibility: 1.31409
+   2S     LGR_2S    38   30   45   45   OPEN     1*    1.314093E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3716.92 - MD Out: 3717.67 Transmissibility: 1.31318
+   2S     LGR_2S    38   30   46   46   OPEN     1*    1.313177E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3717.67 - MD Out: 3718.43 Transmissibility: 5.35428
+   2S     LGR_2S    38   30   47   47   OPEN     1*    5.354283E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3718.43 - MD Out: 3719.18 Transmissibility: 5.33662
+   2S     LGR_2S    38   30   48   48   OPEN     1*    5.336619E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3719.18 - MD Out: 3719.37 Transmissibility: 0.232792
+   2S     LGR_2S    38   30   49   49   OPEN     1*    2.327922E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3719.37 - MD Out: 3719.94 Transmissibility: 0.736541
+   2S     LGR_2S    37   30   49   49   OPEN     1*    7.365408E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3719.94 - MD Out: 3720.69 Transmissibility: 0.968433
+   2S     LGR_2S    37   30   50   50   OPEN     1*    9.684331E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3720.69 - MD Out: 3721.44 Transmissibility: 0.00584714
+   2S     LGR_2S    37   30   51   51   OPEN     1*    5.847144E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3721.44 - MD Out: 3722.2 Transmissibility: 0.00584339
+   2S     LGR_2S    37   30   52   52   OPEN     1*    5.843389E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3722.2 - MD Out: 3722.95 Transmissibility: 0.000228101
+   2S     LGR_2S    37   30   53   53   OPEN     1*    2.281012E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3722.95 - MD Out: 3723.7 Transmissibility: 0.000227767
+   2S     LGR_2S    37   30   54   54   OPEN     1*    2.277671E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3723.7 - MD Out: 3724.44 Transmissibility: 0.293484
+   2S     LGR_2S    37   30   55   55   OPEN     1*    2.934843E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3724.44 - MD Out: 3725.19 Transmissibility: 0.293246
+   2S     LGR_2S    37   30   56   56   OPEN     1*    2.932459E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3725.19 - MD Out: 3725.79 Transmissibility: 0.00520695
+   2S     LGR_2S    37   30   57   57   OPEN     1*    5.206950E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3725.79 - MD Out: 3725.94 Transmissibility: 0.00132127
+   2S     LGR_2S    36   30   57   57   OPEN     1*    1.321268E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3725.94 - MD Out: 3726.68 Transmissibility: 0.00651949
+   2S     LGR_2S    36   30   58   58   OPEN     1*    6.519485E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3726.68 - MD Out: 3727.43 Transmissibility: 0.00638452
+   2S     LGR_2S    36   30   59   59   OPEN     1*    6.384521E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3727.43 - MD Out: 3728.17 Transmissibility: 0.00637916
+   2S     LGR_2S    36   30   60   60   OPEN     1*    6.379157E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3728.17 - MD Out: 3728.91 Transmissibility: 0.501983
+   2S     LGR_2S    36   30   61   61   OPEN     1*    5.019832E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3728.91 - MD Out: 3729.65 Transmissibility: 0.500911
+   2S     LGR_2S    36   30   62   62   OPEN     1*    5.009108E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3729.65 - MD Out: 3730.39 Transmissibility: 0.10867
+   2S     LGR_2S    36   30   63   63   OPEN     1*    1.086702E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3730.39 - MD Out: 3731.13 Transmissibility: 0.108629
+   2S     LGR_2S    36   30   64   64   OPEN     1*    1.086290E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3731.13 - MD Out: 3731.87 Transmissibility: 0.000461795
+   2S     LGR_2S    36   30   65   65   OPEN     1*    4.617951E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3731.87 - MD Out: 3732.11 Transmissibility: 0.000145635
+   2S     LGR_2S    36   30   66   66   OPEN     1*    1.456351E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3732.11 - MD Out: 3732.61 Transmissibility: 0.000315682
+   2S     LGR_2S    35   30   66   66   OPEN     1*    3.156820E-04   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3732.61 - MD Out: 3733.35 Transmissibility: 0.0250071
+   2S     LGR_2S    35   30   67   67   OPEN     1*    2.500712E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3733.35 - MD Out: 3734.08 Transmissibility: 0.0249073
+   2S     LGR_2S    35   30   68   68   OPEN     1*    2.490730E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3734.08 - MD Out: 3734.82 Transmissibility: 0.0136382
+   2S     LGR_2S    35   30   69   69   OPEN     1*    1.363823E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3734.82 - MD Out: 3735.55 Transmissibility: 0.0136255
+   2S     LGR_2S    35   30   70   70   OPEN     1*    1.362553E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3735.55 - MD Out: 3736.28 Transmissibility: 0.00120322
+   2S     LGR_2S    35   30   71   71   OPEN     1*    1.203225E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3736.28 - MD Out: 3737.01 Transmissibility: 0.0012023
+   2S     LGR_2S    35   30   72   72   OPEN     1*    1.202295E-03   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3737.01 - MD Out: 3737.28 Transmissibility: 0.182375
+   2S     LGR_2S    35   30   73   73   OPEN     1*    1.823749E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3737.28 - MD Out: 3737.75 Transmissibility: 0.903246
+   2S     LGR_2S    35   31   73   73   OPEN     1*    9.032464E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3737.75 - MD Out: 3738.27 Transmissibility: 1.00237
+   2S     LGR_2S    35   31   74   74   OPEN     1*    1.002372E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3738.27 - MD Out: 3738.49 Transmissibility: 0.426046
+   2S     LGR_2S    34   31   74   74   OPEN     1*    4.260455E-01   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3738.49 - MD Out: 3739.23 Transmissibility: 3.22556
+   2S     LGR_2S    34   31   75   75   OPEN     1*    3.225563E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3739.23 - MD Out: 3739.97 Transmissibility: 3.2228
+   2S     LGR_2S    34   31   76   76   OPEN     1*    3.222801E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3739.97 - MD Out: 3740.71 Transmissibility: 3.44493
+   2S     LGR_2S    34   31   77   77   OPEN     1*    3.444929E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3740.71 - MD Out: 3741.45 Transmissibility: 3.4421
+   2S     LGR_2S    34   31   78   78   OPEN     1*    3.442102E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3741.45 - MD Out: 3742.18 Transmissibility: 0.0435798
+   2S     LGR_2S    34   31   79   79   OPEN     1*    4.357977E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3742.18 - MD Out: 3742.92 Transmissibility: 0.0435826
+   2S     LGR_2S    34   31   80   80   OPEN     1*    4.358258E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3742.92 - MD Out: 3743.66 Transmissibility: 3.10712
+   2S     LGR_2S    34   31   81   81   OPEN     1*    3.107124E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3743.66 - MD Out: 3744.13 Transmissibility: 1.97892
+   2S     LGR_2S    34   31   82   82   OPEN     1*    1.978925E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3744.13 - MD Out: 3744.4 Transmissibility: 1.12718
+   2S     LGR_2S    33   31   82   82   OPEN     1*    1.127178E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3744.4 - MD Out: 3745.13 Transmissibility: 1.21758
+   2S     LGR_2S    33   31   83   83   OPEN     1*    1.217583E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3745.13 - MD Out: 3745.87 Transmissibility: 1.21675
+   2S     LGR_2S    33   31   84   84   OPEN     1*    1.216754E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3745.87 - MD Out: 3746.6 Transmissibility: 7.9557
+   2S     LGR_2S    33   31   85   85   OPEN     1*    7.955702E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3746.6 - MD Out: 3747.34 Transmissibility: 7.94817
+   2S     LGR_2S    33   31   86   86   OPEN     1*    7.948166E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3747.34 - MD Out: 3748.07 Transmissibility: 4.65079
+   2S     LGR_2S    33   31   87   87   OPEN     1*    4.650793E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3748.07 - MD Out: 3748.8 Transmissibility: 4.64821
+   2S     LGR_2S    33   31   88   88   OPEN     1*    4.648206E+00   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3748.8 - MD Out: 3749.54 Transmissibility: 0.0209899
+   2S     LGR_2S    33   31   89   89   OPEN     1*    2.098990E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3749.54 - MD Out: 3749.89 Transmissibility: 0.0101264
+   2S     LGR_2S    33   31   90   90   OPEN     1*    1.012641E-02   0.19050   1*   0.00000   1*   'Z' /
+-- Perforation Completion : MD In: 3749.89 - MD Out: 3750 Transmissibility: 0.00316765
+   2S     LGR_2S    32   31   90   90   OPEN     1*    3.167649E-03   0.19050   1*   0.00000   1*   'Z' /
+    /
