@@ -35,7 +35,7 @@ with open('work_directory/csv_module/names.csv', 'r', newline='') as csv_file:  
 
 print('\n############################ 2. WRITE TO A CSV FILE USING csv.writer() METHOD ############################\n')
 '''
-Now, let's say we want to read from a CSV file, and write the contents a new CSV file using '-' as the delimiter.
+Now, let's say we want to read from a CSV file, and write the contents to a new CSV file using '-' as the delimiter.
 '''
 
 with open('work_directory/csv_module/names.csv', 'r', newline='') as csv_file:
@@ -95,6 +95,7 @@ with open('work_directory/csv_module/names.csv', 'r', newline='') as csv_file:
         print(line)
 
     csv_file.seek(0, 0)                 # set pointer back to beginning of file
+    next(csv_reader)                    # skip printing the header
 
     # print each email (ordered dict[email])
     for line in csv_reader:

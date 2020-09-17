@@ -67,9 +67,9 @@ glob_results('case?')                   # 2 matches for all directories that mat
 glob_results('case?/*')                 # 8 matches for all files and directories inside case? (1 level below case?)
 glob_results('case?/*/*')               # 23 matches for all files and directories 2 levels below case?
 
-print()
+print('--\n')
 
-glob_results('*.DATA')                  # 0 matches because there are no *.DATA files in the CWD
+glob_results('*.DATA')                  # 0 matches because there are no *.DATA files in the CWD ('/' creates levels)
 glob_results('case?/*/*.DATA')          # 2 matches for the *.DATA files 2 levels below case?
 glob_results('case?/*/include')         # 2 matches for the 'include' directories 2 levels below case?
 glob_results('case?/*/include/*')       # 34 matches for all files and directories inside the 'include' directories
