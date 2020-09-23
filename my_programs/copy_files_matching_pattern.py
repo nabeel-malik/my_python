@@ -22,20 +22,20 @@ count = 0
 t0 = time.perf_counter()
 
 for file in glob.iglob('*/RNB2021/*_RNB2021.xlsm'):
-    if "Gungne" in file:
-        continue
-    else:
-        while True:
-            try:
-                shutil.copy(file, dst_dir)
-            except PermissionError:
-                print(f"Permission denied to file: {file}. Will try again in 15 seconds...")
-                time.sleep(15)
-                continue
-            else:
-                print(f"{file} copied.")
-                count += 1
-                break
+#    if "Gungne" in file:
+#        continue
+#    else:
+    while True:
+        try:
+            shutil.copy(file, dst_dir)
+        except PermissionError:
+            print(f"Permission denied to file: {file}. Will try again in 15 seconds...")
+            time.sleep(15)
+            continue
+        else:
+            print(f"{file} copied.")
+            count += 1
+            break
 
 t1 = time.perf_counter()
 time_secs = round(t1-t0, 0)
