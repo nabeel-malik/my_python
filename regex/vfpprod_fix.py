@@ -1,8 +1,3 @@
-import sys
-import os
-import linecache
-import itertools
-import fileinput
 import re
 
 with open('./input_files/vfpprod_fix/sigrun_march2019.vfp', 'r+') as vfp_file:
